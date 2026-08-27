@@ -1,0 +1,1 @@
+{"id":"gnews","name":"GNews API","description":"Search and retrieve news articles from sources around the web.","category":"news","website":"https://gnews.io","docs":"https://gnews.io/docs/v4","auth":"api-key","pricing":"Free tier and paid plans available; limits vary.","status":"active","tags":["news","search","media"]}
