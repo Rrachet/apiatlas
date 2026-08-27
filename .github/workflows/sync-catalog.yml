@@ -1,0 +1,38 @@
+name: Sync generated catalog
+
+on:
+  push:
+    paths:
+      - 'apis/**/*.json'
+      - 'scripts/generate-index.js'
+      - '.github/workflows/sync-catalog.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validate records
+        run: node scripts/validate.js
+      - name: Generate catalog
+        run: node scripts/generate-index.js
+      - name: Commit generated catalog
+        run: |
+          if git diff --quiet -- data/apis.json; then
+            echo "Catalog already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/apis.json
+          git commit -m "chore: sync generated API catalog"
+          git push
