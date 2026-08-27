@@ -4,6 +4,10 @@ A structured, searchable directory of public APIs.
 
 **Goal:** find the right API without spending hours searching.
 
+## Live discovery site
+
+The Next.js discovery interface lives in `web/` and is designed for fast browsing, search, filtering, and direct access to API documentation.
+
 ## Current catalog
 
 - **102 API records** across **32 categories**
@@ -12,25 +16,26 @@ A structured, searchable directory of public APIs.
 - Automated health checks run from GitHub Actions
 - Validation prevents malformed records and duplicate IDs
 
-## Phase 3
+## Project structure
 
-Phase 3 turns apiatlas from a small API list into a real discovery dataset. The catalog now crosses AI, finance, crypto, maps, weather, news, social, productivity, payments, ecommerce, security, science, government, testing, entertainment, travel, and more.
-
-## Data model
-
-Each API is a small JSON record so it can be consumed by a website, CLI, search engine, or another API without scraping Markdown.
-
-## Roadmap
-
-1. 100+ structured APIs — **complete**
-2. Automated health monitoring — **complete**
-3. Search/discovery website — next
-4. API quality scoring and freshness ranking
-5. Community submissions and review workflow
+- `apis/` — source API records
+- `data/apis.json` — generated catalog consumed by the website
+- `schema/` — machine-readable API schema
+- `scripts/` — validation, indexing, and health tooling
+- `web/` — Next.js discovery application
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md). Never commit API keys, tokens, passwords, or other secrets.
+
+## Roadmap
+
+1. Structured catalog — complete
+2. Automated health monitoring — complete
+3. Discovery website — complete
+4. API quality scoring and freshness ranking
+5. Community submissions and review workflow
+6. API playground and generated code snippets
 
 ## License
 
