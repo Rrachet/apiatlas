@@ -1,0 +1,22 @@
+name: Validate API catalog
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validate records
+        run: node scripts/validate.js
+      - name: Regenerate index
+        run: node scripts/generate-index.js
+      - name: Ensure index is committed
+        run: git diff --exit-code -- data/apis.json
