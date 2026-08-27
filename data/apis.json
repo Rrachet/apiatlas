@@ -1,28 +1,1683 @@
 {
   "version": 1,
   "apis": [
-    {"id":"cat-facts","name":"Cat Facts API","description":"Provides random and searchable facts about cats.","category":"animals","website":"https://catfact.ninja","docs":"https://catfact.ninja/","auth":"none","pricing":"Free public API.","status":"active","tags":["animals","cats","fun"]},
-    {"id":"dog-ceo","name":"Dog CEO API","description":"Open API serving dog images and breed information.","category":"animals","website":"https://dog.ceo","docs":"https://dog.ceo/dog-api/","auth":"none","pricing":"Free public API.","status":"active","tags":["animals","dogs","images"]},
-    {"id":"github","name":"GitHub REST API","description":"REST API for repositories, issues, pull requests, users, and other GitHub resources.","category":"developer-tools","website":"https://github.com","docs":"https://docs.github.com/en/rest","auth":"bearer","pricing":"Free public API access subject to rate limits; authenticated limits vary.","status":"active","tags":["developer-tools","git","github"]},
-    {"id":"openai","name":"OpenAI API","description":"APIs for building applications with OpenAI models and AI capabilities.","category":"ai","website":"https://openai.com","docs":"https://platform.openai.com/docs","auth":"api-key","pricing":"Paid usage with model-dependent pricing; check official pricing for current rates.","status":"active","tags":["ai","llm","generative-ai"]},
-    {"id":"open-meteo","name":"Open-Meteo","description":"Open weather APIs providing forecasts and historical weather data.","category":"weather","website":"https://open-meteo.com","docs":"https://open-meteo.com/en/docs","auth":"none","pricing":"Free for non-commercial use; commercial terms apply for higher-volume use.","status":"active","tags":["weather","forecast","climate"]},
-    {"id":"rest-countries","name":"REST Countries","description":"Country information including names, capitals, regions, currencies, languages, and flags.","category":"government","website":"https://restcountries.com","docs":"https://restcountries.com","auth":"none","pricing":"Free public API.","status":"active","tags":["countries","geography","government"]},
-    {"id":"nasa","name":"NASA APIs","description":"Public APIs exposing NASA datasets such as astronomy imagery and near-Earth object information.","category":"government","website":"https://api.nasa.gov","docs":"https://api.nasa.gov","auth":"api-key","pricing":"Free API access subject to NASA rate limits.","status":"active","tags":["space","science","nasa"]},
-    {"id":"jsonplaceholder","name":"JSONPlaceholder","description":"Fake REST API for testing and prototyping without a backend.","category":"testing","website":"https://jsonplaceholder.typicode.com","docs":"https://jsonplaceholder.typicode.com/guide/","auth":"none","pricing":"Free.","status":"active","tags":["testing","mock-api","prototyping"]},
-    {"id":"reqres","name":"ReqRes","description":"Hosted REST API for testing frontend and API integrations with realistic sample data.","category":"testing","website":"https://reqres.in","docs":"https://reqres.in/docs","auth":"api-key","pricing":"Free tier available; current limits and plans vary.","status":"active","tags":["testing","mock-api","prototyping"]},
-    {"id":"open-library","name":"Open Library API","description":"Public APIs for searching and accessing Open Library book and edition data.","category":"books","website":"https://openlibrary.org","docs":"https://openlibrary.org/developers/api","auth":"none","pricing":"Free public API.","status":"active","tags":["books","library","open-data"]},
-    {"id":"pokeapi","name":"PokéAPI","description":"Free RESTful and GraphQL API serving comprehensive Pokémon data.","category":"games","website":"https://pokeapi.co","docs":"https://pokeapi.co/docs/v2","auth":"none","pricing":"Free and open source.","status":"active","tags":["games","pokemon","graphql"]},
-    {"id":"coingecko","name":"CoinGecko API","description":"Cryptocurrency market, pricing, metadata, and historical data API.","category":"finance","website":"https://www.coingecko.com","docs":"https://docs.coingecko.com/reference/introduction","auth":"api-key","pricing":"Free demo access and paid plans are available; limits vary.","status":"active","tags":["crypto","finance","markets"]},
-    {"id":"frankfurter","name":"Frankfurter","description":"Free foreign exchange rates API powered by European Central Bank reference rates.","category":"finance","website":"https://www.frankfurter.app","docs":"https://www.frankfurter.app/docs/","auth":"none","pricing":"Free public API.","status":"active","tags":["finance","currency","exchange-rates"]},
-    {"id":"exchangerate-host","name":"ExchangeRate.host","description":"Currency conversion and foreign exchange rates API.","category":"finance","website":"https://exchangerate.host","docs":"https://exchangerate.host/documentation/","auth":"api-key","pricing":"Free and paid access options; current limits vary.","status":"active","tags":["finance","currency","exchange-rates"]},
-    {"id":"gnews","name":"GNews API","description":"Search and retrieve news articles from sources around the web.","category":"news","website":"https://gnews.io","docs":"https://gnews.io/docs/v4","auth":"api-key","pricing":"Free tier and paid plans available; limits vary.","status":"active","tags":["news","search","media"]},
-    {"id":"new-york-times","name":"New York Times API","description":"APIs for accessing New York Times articles, books, reviews, and other datasets.","category":"news","website":"https://developer.nytimes.com","docs":"https://developer.nytimes.com/apis","auth":"api-key","pricing":"Free developer access subject to published limits.","status":"active","tags":["news","articles","books"]},
-    {"id":"spotify","name":"Spotify Web API","description":"API for accessing Spotify catalog metadata, playlists, users, playback, and recommendations.","category":"music","website":"https://developer.spotify.com","docs":"https://developer.spotify.com/documentation/web-api","auth":"oauth2","pricing":"Developer access subject to Spotify platform terms and limits.","status":"active","tags":["music","audio","playlists"]},
-    {"id":"youtube-data","name":"YouTube Data API","description":"API for accessing YouTube resources such as videos, channels, playlists, and search results.","category":"video","website":"https://developers.google.com/youtube/v3","docs":"https://developers.google.com/youtube/v3/docs","auth":"api-key","pricing":"Quota-based access with free daily quota allocation subject to Google policies.","status":"active","tags":["video","youtube","media","google"]},
-    {"id":"ip-api","name":"IP-API","description":"IP geolocation API providing location and network information for IP addresses.","category":"location","website":"https://ip-api.com","docs":"https://ip-api.com/docs","auth":"none","pricing":"Free for non-commercial use; commercial access requires a paid plan.","status":"active","tags":["geolocation","ip","location"]},
-    {"id":"ipinfo","name":"IPinfo API","description":"IP address intelligence and geolocation API with network, ASN, privacy, and location data.","category":"location","website":"https://ipinfo.io","docs":"https://ipinfo.io/developers","auth":"api-key","pricing":"Free tier and paid plans available; limits vary.","status":"active","tags":["geolocation","ip","asn"]},
-    {"id":"geocoding-api","name":"Geocoding API","description":"Geocoding and reverse geocoding service based on OpenStreetMap data.","category":"maps","website":"https://geocode.maps.co","docs":"https://geocode.maps.co","auth":"api-key","pricing":"Free tier available; current limits and terms vary.","status":"active","tags":["maps","geocoding","openstreetmap"]},
-    {"id":"open-trivia","name":"Open Trivia Database","description":"Free trivia question database and API for games and applications.","category":"education","website":"https://opentdb.com","docs":"https://opentdb.com/api_config.php","auth":"none","pricing":"Free public API.","status":"active","tags":["trivia","education","games"]},
-    {"id":"themealdb","name":"TheMealDB","description":"Open recipe and meal database API with images, ingredients, categories, and areas.","category":"food","website":"https://www.themealdb.com","docs":"https://www.themealdb.com/api.php","auth":"api-key","pricing":"Free public API with optional paid supporter features.","status":"active","tags":["food","recipes","meals"]}
+    {
+      "id": "abuseipdb",
+      "name": "AbuseIPDB API",
+      "description": "IP reputation and abuse-reporting API.",
+      "category": "security",
+      "website": "https://www.abuseipdb.com",
+      "docs": "https://docs.abuseipdb.com",
+      "auth": "api-key",
+      "pricing": "Free tier and paid plans available.",
+      "status": "active",
+      "tags": [
+        "security",
+        "ip",
+        "reputation"
+      ]
+    },
+    {
+      "id": "alpha-vantage",
+      "name": "Alpha Vantage API",
+      "description": "Stock, forex, cryptocurrency, and economic market data APIs.",
+      "category": "finance",
+      "website": "https://www.alphavantage.co",
+      "docs": "https://www.alphavantage.co/documentation",
+      "auth": "api-key",
+      "pricing": "Free tier and paid plans available.",
+      "status": "active",
+      "tags": [
+        "stocks",
+        "finance",
+        "markets"
+      ]
+    },
+    {
+      "id": "anilist",
+      "name": "AniList API",
+      "description": "GraphQL API for anime and manga discovery and tracking.",
+      "category": "anime",
+      "website": "https://anilist.co",
+      "docs": "https://anilist.github.io/ApiV2-GraphQL-Docs",
+      "auth": "oauth2",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "anime",
+        "manga",
+        "graphql"
+      ]
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic API",
+      "description": "API for Claude family models and AI applications.",
+      "category": "ai",
+      "website": "https://www.anthropic.com",
+      "docs": "https://docs.anthropic.com",
+      "auth": "api-key",
+      "pricing": "Paid usage with model-dependent pricing.",
+      "status": "active",
+      "tags": [
+        "ai",
+        "llm",
+        "claude"
+      ]
+    },
+    {
+      "id": "aviationstack",
+      "name": "Aviationstack API",
+      "description": "Flight, airport, airline, and aviation data API.",
+      "category": "transportation",
+      "website": "https://aviationstack.com",
+      "docs": "https://aviationstack.com/documentation",
+      "auth": "api-key",
+      "pricing": "Free tier and paid plans available.",
+      "status": "active",
+      "tags": [
+        "aviation",
+        "flights",
+        "travel"
+      ]
+    },
+    {
+      "id": "aws",
+      "name": "AWS APIs",
+      "description": "Programmatic APIs across Amazon Web Services cloud products.",
+      "category": "cloud",
+      "website": "https://aws.amazon.com",
+      "docs": "https://docs.aws.amazon.com",
+      "auth": "custom",
+      "pricing": "Service-specific usage pricing.",
+      "status": "active",
+      "tags": [
+        "cloud",
+        "aws",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "binance",
+      "name": "Binance API",
+      "description": "Cryptocurrency exchange market and trading APIs.",
+      "category": "crypto",
+      "website": "https://www.binance.com",
+      "docs": "https://developers.binance.com/docs",
+      "auth": "api-key",
+      "pricing": "Public market data available; account features subject to exchange terms.",
+      "status": "active",
+      "tags": [
+        "crypto",
+        "exchange",
+        "trading"
+      ]
+    },
+    {
+      "id": "bitly",
+      "name": "Bitly API",
+      "description": "URL shortening, links, QR codes, and link-management APIs.",
+      "category": "url",
+      "website": "https://bitly.com",
+      "docs": "https://dev.bitly.com",
+      "auth": "bearer",
+      "pricing": "Free and paid plans available.",
+      "status": "active",
+      "tags": [
+        "url-shortener",
+        "links",
+        "qr"
+      ]
+    },
+    {
+      "id": "bluesky",
+      "name": "Bluesky API",
+      "description": "AT Protocol APIs for social networking data and interactions.",
+      "category": "social",
+      "website": "https://bsky.app",
+      "docs": "https://docs.bsky.app",
+      "auth": "bearer",
+      "pricing": "Open protocol and public APIs subject to service policies.",
+      "status": "active",
+      "tags": [
+        "social",
+        "atproto",
+        "bluesky"
+      ]
+    },
+    {
+      "id": "cat-facts",
+      "name": "Cat Facts API",
+      "description": "Provides random and searchable facts about cats.",
+      "category": "animals",
+      "website": "https://catfact.ninja",
+      "docs": "https://catfact.ninja/",
+      "auth": "none",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "animals",
+        "cats",
+        "fun"
+      ]
+    },
+    {
+      "id": "cataas",
+      "name": "Cataas",
+      "description": "Cat images and GIFs API.",
+      "category": "animals",
+      "website": "https://cataas.com",
+      "docs": "https://cataas.com",
+      "auth": "none",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "cats",
+        "images"
+      ]
+    },
+    {
+      "id": "cheapshark",
+      "name": "CheapShark API",
+      "description": "Video game deals, stores, prices, and deal history API.",
+      "category": "games",
+      "website": "https://www.cheapshark.com",
+      "docs": "https://apidocs.cheapshark.com",
+      "auth": "none",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "games",
+        "deals",
+        "prices"
+      ]
+    },
+    {
+      "id": "clearbit-logo",
+      "name": "Clearbit Logo API",
+      "description": "Retrieve company logos from domain names.",
+      "category": "business",
+      "website": "https://clearbit.com",
+      "docs": "https://clearbit.com/docs",
+      "auth": "api-key",
+      "pricing": "Availability and plans vary.",
+      "status": "active",
+      "tags": [
+        "business",
+        "logos",
+        "companies"
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "name": "Cloudflare API",
+      "description": "APIs for Cloudflare zones, DNS, security, Workers, and edge services.",
+      "category": "cloud",
+      "website": "https://www.cloudflare.com",
+      "docs": "https://developers.cloudflare.com/api",
+      "auth": "bearer",
+      "pricing": "Free and paid products available.",
+      "status": "active",
+      "tags": [
+        "cloud",
+        "edge",
+        "dns"
+      ]
+    },
+    {
+      "id": "coingecko",
+      "name": "CoinGecko API",
+      "description": "Cryptocurrency market, pricing, metadata, and historical data API.",
+      "category": "finance",
+      "website": "https://www.coingecko.com",
+      "docs": "https://docs.coingecko.com/reference/introduction",
+      "auth": "api-key",
+      "pricing": "Free demo access and paid plans are available; limits vary.",
+      "status": "active",
+      "tags": [
+        "crypto",
+        "finance",
+        "markets"
+      ]
+    },
+    {
+      "id": "coinpaprika",
+      "name": "CoinPaprika API",
+      "description": "Cryptocurrency prices, market data, coins, and historical information.",
+      "category": "crypto",
+      "website": "https://coinpaprika.com",
+      "docs": "https://api.coinpaprika.com",
+      "auth": "none",
+      "pricing": "Free public API with paid options.",
+      "status": "active",
+      "tags": [
+        "crypto",
+        "markets",
+        "prices"
+      ]
+    },
+    {
+      "id": "currencyapi",
+      "name": "CurrencyAPI",
+      "description": "Foreign exchange rates and currency conversion API.",
+      "category": "currency",
+      "website": "https://currencyapi.com",
+      "docs": "https://currencyapi.com/docs",
+      "auth": "api-key",
+      "pricing": "Free tier and paid plans available.",
+      "status": "active",
+      "tags": [
+        "currency",
+        "forex",
+        "exchange-rates"
+      ]
+    },
+    {
+      "id": "datausa",
+      "name": "Data USA API",
+      "description": "U.S. economic, demographic, education, and geographic data API.",
+      "category": "open-data",
+      "website": "https://datausa.io",
+      "docs": "https://datausa.io/about/api",
+      "auth": "none",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "open-data",
+        "demographics",
+        "economics"
+      ]
+    },
+    {
+      "id": "data-gov",
+      "name": "Data.gov APIs",
+      "description": "Access U.S. government open datasets and catalog metadata.",
+      "category": "government",
+      "website": "https://data.gov",
+      "docs": "https://api.data.gov",
+      "auth": "api-key",
+      "pricing": "Free public access with API key for many services.",
+      "status": "active",
+      "tags": [
+        "government",
+        "open-data",
+        "datasets"
+      ]
+    },
+    {
+      "id": "deepl",
+      "name": "DeepL API",
+      "description": "Machine translation API with high-quality multilingual translation.",
+      "category": "language",
+      "website": "https://www.deepl.com",
+      "docs": "https://developers.deepl.com/docs",
+      "auth": "api-key",
+      "pricing": "Free tier and paid plans available.",
+      "status": "active",
+      "tags": [
+        "translation",
+        "language",
+        "nlp"
+      ]
+    },
+    {
+      "id": "discord",
+      "name": "Discord API",
+      "description": "APIs for bots, guilds, users, messages, interactions, and integrations.",
+      "category": "social",
+      "website": "https://discord.com",
+      "docs": "https://discord.com/developers/docs",
+      "auth": "bearer",
+      "pricing": "Free developer platform subject to rate limits.",
+      "status": "active",
+      "tags": [
+        "social",
+        "discord",
+        "bots"
+      ]
+    },
+    {
+      "id": "disease-sh",
+      "name": "Disease.sh",
+      "description": "COVID-19 and public health statistics API.",
+      "category": "health",
+      "website": "https://disease.sh",
+      "docs": "https://disease.sh/docs",
+      "auth": "none",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "health",
+        "statistics",
+        "covid"
+      ]
+    },
+    {
+      "id": "docker-hub",
+      "name": "Docker Hub API",
+      "description": "API for Docker Hub repositories, images, tags, and registry metadata.",
+      "category": "developer-tools",
+      "website": "https://hub.docker.com",
+      "docs": "https://docs.docker.com/docker-hub/api",
+      "auth": "bearer",
+      "pricing": "Free and paid plans available.",
+      "status": "active",
+      "tags": [
+        "docker",
+        "containers",
+        "registry"
+      ]
+    },
+    {
+      "id": "dog-ceo",
+      "name": "Dog CEO API",
+      "description": "Open API serving dog images and breed information.",
+      "category": "animals",
+      "website": "https://dog.ceo",
+      "docs": "https://dog.ceo/dog-api/",
+      "auth": "none",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "animals",
+        "dogs",
+        "images"
+      ]
+    },
+    {
+      "id": "domainsdb",
+      "name": "DomainsDB",
+      "description": "Search registered domain names and domain metadata.",
+      "category": "business",
+      "website": "https://domainsdb.info",
+      "docs": "https://domainsdb.info",
+      "auth": "none",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "domains",
+        "search",
+        "business"
+      ]
+    },
+    {
+      "id": "europeana",
+      "name": "Europeana API",
+      "description": "Search and access European cultural heritage collections.",
+      "category": "open-data",
+      "website": "https://www.europeana.eu",
+      "docs": "https://pro.europeana.eu/page/apis",
+      "auth": "api-key",
+      "pricing": "Free access subject to API terms.",
+      "status": "active",
+      "tags": [
+        "culture",
+        "heritage",
+        "open-data"
+      ]
+    },
+    {
+      "id": "exchangerate-host",
+      "name": "ExchangeRate.host",
+      "description": "Currency conversion and foreign exchange rates API.",
+      "category": "finance",
+      "website": "https://exchangerate.host",
+      "docs": "https://exchangerate.host/documentation/",
+      "auth": "api-key",
+      "pricing": "Free and paid access options; current limits vary.",
+      "status": "active",
+      "tags": [
+        "finance",
+        "currency",
+        "exchange-rates"
+      ]
+    },
+    {
+      "id": "fakestore",
+      "name": "Fake Store API",
+      "description": "Fake ecommerce products and carts API for frontend testing.",
+      "category": "testing",
+      "website": "https://fakestoreapi.com",
+      "docs": "https://fakestoreapi.com/docs",
+      "auth": "none",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "testing",
+        "ecommerce",
+        "mock-api"
+      ]
+    },
+    {
+      "id": "finnhub",
+      "name": "Finnhub API",
+      "description": "Real-time and historical financial market data API.",
+      "category": "finance",
+      "website": "https://finnhub.io",
+      "docs": "https://finnhub.io/docs/api",
+      "auth": "api-key",
+      "pricing": "Free tier and paid plans available.",
+      "status": "active",
+      "tags": [
+        "stocks",
+        "finance",
+        "markets"
+      ]
+    },
+    {
+      "id": "football-data",
+      "name": "football-data.org",
+      "description": "Football competitions, teams, matches, standings, and results API.",
+      "category": "sports",
+      "website": "https://www.football-data.org",
+      "docs": "https://www.football-data.org/documentation/quickstart",
+      "auth": "api-key",
+      "pricing": "Free tier and paid options available.",
+      "status": "active",
+      "tags": [
+        "football",
+        "soccer",
+        "sports"
+      ]
+    },
+    {
+      "id": "frankfurter",
+      "name": "Frankfurter",
+      "description": "Free foreign exchange rates API powered by the European Central Bank reference rates.",
+      "category": "finance",
+      "website": "https://www.frankfurter.app",
+      "docs": "https://www.frankfurter.app/docs/",
+      "auth": "none",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "finance",
+        "currency",
+        "exchange-rates"
+      ]
+    },
+    {
+      "id": "geocoding-api",
+      "name": "Geocoding API",
+      "description": "Geocoding and reverse geocoding service based on OpenStreetMap data.",
+      "category": "maps",
+      "website": "https://geocode.maps.co",
+      "docs": "https://geocode.maps.co",
+      "auth": "api-key",
+      "pricing": "Free tier available; current limits and terms vary.",
+      "status": "active",
+      "tags": [
+        "maps",
+        "geocoding",
+        "openstreetmap"
+      ]
+    },
+    {
+      "id": "github",
+      "name": "GitHub REST API",
+      "description": "REST API for repositories, issues, pull requests, users, and other GitHub resources.",
+      "category": "developer-tools",
+      "website": "https://github.com",
+      "docs": "https://docs.github.com/en/rest",
+      "auth": "bearer",
+      "pricing": "Free public API access subject to rate limits; authenticated limits vary.",
+      "status": "active",
+      "tags": [
+        "developer-tools",
+        "git",
+        "github"
+      ]
+    },
+    {
+      "id": "gitlab",
+      "name": "GitLab API",
+      "description": "REST and GraphQL APIs for GitLab projects, issues, users, and CI/CD.",
+      "category": "developer-tools",
+      "website": "https://gitlab.com",
+      "docs": "https://docs.gitlab.com/api",
+      "auth": "bearer",
+      "pricing": "Free public access subject to GitLab limits and plan features.",
+      "status": "active",
+      "tags": [
+        "git",
+        "devops",
+        "ci-cd"
+      ]
+    },
+    {
+      "id": "gnews",
+      "name": "GNews API",
+      "description": "Search and retrieve news articles from sources around the web.",
+      "category": "news",
+      "website": "https://gnews.io",
+      "docs": "https://gnews.io/docs/v4",
+      "auth": "api-key",
+      "pricing": "Free tier and paid plans available; limits vary.",
+      "status": "active",
+      "tags": [
+        "news",
+        "search",
+        "media"
+      ]
+    },
+    {
+      "id": "google-books",
+      "name": "Google Books API",
+      "description": "Search and retrieve book and volume metadata.",
+      "category": "books",
+      "website": "https://books.google.com",
+      "docs": "https://developers.google.com/books",
+      "auth": "api-key",
+      "pricing": "Free quota available; limits vary.",
+      "status": "active",
+      "tags": [
+        "books",
+        "google",
+        "search"
+      ]
+    },
+    {
+      "id": "google-cloud",
+      "name": "Google Cloud APIs",
+      "description": "APIs for Google Cloud compute, storage, data, AI, and infrastructure services.",
+      "category": "cloud",
+      "website": "https://cloud.google.com",
+      "docs": "https://cloud.google.com/apis",
+      "auth": "oauth2",
+      "pricing": "Service-specific usage pricing.",
+      "status": "active",
+      "tags": [
+        "cloud",
+        "google",
+        "infrastructure"
+      ]
+    },
+    {
+      "id": "google-translate",
+      "name": "Google Cloud Translation API",
+      "description": "Machine translation API supporting many languages and translation modes.",
+      "category": "language",
+      "website": "https://cloud.google.com/translate",
+      "docs": "https://cloud.google.com/translate/docs",
+      "auth": "api-key",
+      "pricing": "Usage-based pricing with free allowances varying by product.",
+      "status": "active",
+      "tags": [
+        "translation",
+        "language",
+        "nlp"
+      ]
+    },
+    {
+      "id": "google-gemini",
+      "name": "Google Gemini API",
+      "description": "Generative AI API for Gemini models and multimodal applications.",
+      "category": "ai",
+      "website": "https://ai.google.dev",
+      "docs": "https://ai.google.dev/gemini-api/docs",
+      "auth": "api-key",
+      "pricing": "Free and paid usage options vary by model.",
+      "status": "active",
+      "tags": [
+        "ai",
+        "llm",
+        "multimodal"
+      ]
+    },
+    {
+      "id": "google-maps",
+      "name": "Google Maps Platform",
+      "description": "Maps, places, routes, geocoding, and location services.",
+      "category": "maps",
+      "website": "https://mapsplatform.google.com",
+      "docs": "https://developers.google.com/maps",
+      "auth": "api-key",
+      "pricing": "Usage-based pricing with free monthly credit subject to current terms.",
+      "status": "active",
+      "tags": [
+        "maps",
+        "places",
+        "routing"
+      ]
+    },
+    {
+      "id": "guardian",
+      "name": "Guardian Open Platform",
+      "description": "The Guardian content API for articles, tags, sections, and search.",
+      "category": "news",
+      "website": "https://open-platform.theguardian.com",
+      "docs": "https://open-platform.theguardian.com/documentation",
+      "auth": "api-key",
+      "pricing": "Free developer access subject to terms.",
+      "status": "active",
+      "tags": [
+        "news",
+        "articles",
+        "search"
+      ]
+    },
+    {
+      "id": "holidayapi",
+      "name": "Holiday API",
+      "description": "Holiday and public-holiday data for countries and regions.",
+      "category": "calendar",
+      "website": "https://holidayapi.com",
+      "docs": "https://holidayapi.com/docs",
+      "auth": "api-key",
+      "pricing": "Free tier and paid plans available.",
+      "status": "active",
+      "tags": [
+        "calendar",
+        "holidays",
+        "dates"
+      ]
+    },
+    {
+      "id": "http-dogs",
+      "name": "HTTP Dogs",
+      "description": "Dog images mapped to HTTP status codes.",
+      "category": "animals",
+      "website": "https://http.dog",
+      "docs": "https://http.dog",
+      "auth": "none",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "dogs",
+        "images",
+        "testing"
+      ]
+    },
+    {
+      "id": "httpbin",
+      "name": "httpbin",
+      "description": "HTTP request and response inspection service for testing clients.",
+      "category": "testing",
+      "website": "https://httpbin.org",
+      "docs": "https://httpbin.org",
+      "auth": "none",
+      "pricing": "Free public service.",
+      "status": "active",
+      "tags": [
+        "testing",
+        "http",
+        "debugging"
+      ]
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face Inference API",
+      "description": "Hosted inference APIs for machine learning and generative AI models.",
+      "category": "ai",
+      "website": "https://huggingface.co",
+      "docs": "https://huggingface.co/docs/api-inference",
+      "auth": "bearer",
+      "pricing": "Free and paid inference options vary by model and provider.",
+      "status": "active",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "inference"
+      ]
+    },
+    {
+      "id": "ip-api",
+      "name": "IP-API",
+      "description": "IP geolocation API providing location and network information for IP addresses.",
+      "category": "location",
+      "website": "https://ip-api.com",
+      "docs": "https://ip-api.com/docs",
+      "auth": "none",
+      "pricing": "Free for non-commercial use; commercial access requires a paid plan.",
+      "status": "active",
+      "tags": [
+        "geolocation",
+        "ip",
+        "location"
+      ]
+    },
+    {
+      "id": "ipinfo",
+      "name": "IPinfo API",
+      "description": "IP address intelligence and geolocation API with network, ASN, privacy, and location data.",
+      "category": "location",
+      "website": "https://ipinfo.io",
+      "docs": "https://ipinfo.io/developers",
+      "auth": "api-key",
+      "pricing": "Free tier and paid plans available; limits vary.",
+      "status": "active",
+      "tags": [
+        "geolocation",
+        "ip",
+        "asn"
+      ]
+    },
+    {
+      "id": "jikan",
+      "name": "Jikan",
+      "description": "Unofficial MyAnimeList API for anime and manga data.",
+      "category": "anime",
+      "website": "https://jikan.moe",
+      "docs": "https://docs.api.jikan.moe",
+      "auth": "none",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "anime",
+        "manga"
+      ]
+    },
+    {
+      "id": "jsonplaceholder",
+      "name": "JSONPlaceholder",
+      "description": "Fake REST API for testing and prototyping without a backend.",
+      "category": "testing",
+      "website": "https://jsonplaceholder.typicode.com",
+      "docs": "https://jsonplaceholder.typicode.com/guide/",
+      "auth": "none",
+      "pricing": "Free.",
+      "status": "active",
+      "tags": [
+        "testing",
+        "mock-api",
+        "prototyping"
+      ]
+    },
+    {
+      "id": "lastfm",
+      "name": "Last.fm API",
+      "description": "Music metadata, artist, album, track, tag, and user listening data.",
+      "category": "music",
+      "website": "https://www.last.fm",
+      "docs": "https://www.last.fm/api",
+      "auth": "api-key",
+      "pricing": "Free API access subject to terms.",
+      "status": "active",
+      "tags": [
+        "music",
+        "artists",
+        "scrobbling"
+      ]
+    },
+    {
+      "id": "picsum",
+      "name": "Lorem Picsum",
+      "description": "Placeholder image service for development and prototyping.",
+      "category": "images",
+      "website": "https://picsum.photos",
+      "docs": "https://picsum.photos",
+      "auth": "none",
+      "pricing": "Free public service.",
+      "status": "active",
+      "tags": [
+        "images",
+        "placeholders",
+        "testing"
+      ]
+    },
+    {
+      "id": "mailgun",
+      "name": "Mailgun API",
+      "description": "Email sending, receiving, validation, and delivery APIs.",
+      "category": "email",
+      "website": "https://www.mailgun.com",
+      "docs": "https://documentation.mailgun.com",
+      "auth": "api-key",
+      "pricing": "Free trial/credits and paid plans vary.",
+      "status": "active",
+      "tags": [
+        "email",
+        "delivery",
+        "smtp"
+      ]
+    },
+    {
+      "id": "mapbox",
+      "name": "Mapbox APIs",
+      "description": "Maps, geocoding, routing, navigation, and location APIs.",
+      "category": "maps",
+      "website": "https://www.mapbox.com",
+      "docs": "https://docs.mapbox.com/api",
+      "auth": "api-key",
+      "pricing": "Free tier and usage-based plans available.",
+      "status": "active",
+      "tags": [
+        "maps",
+        "routing",
+        "geocoding"
+      ]
+    },
+    {
+      "id": "musicbrainz",
+      "name": "MusicBrainz API",
+      "description": "Open music metadata service for artists, releases, recordings, and labels.",
+      "category": "music",
+      "website": "https://musicbrainz.org",
+      "docs": "https://musicbrainz.org/doc/MusicBrainz_API",
+      "auth": "none",
+      "pricing": "Free public API with usage guidelines.",
+      "status": "active",
+      "tags": [
+        "music",
+        "metadata",
+        "open-data"
+      ]
+    },
+    {
+      "id": "nasa",
+      "name": "NASA APIs",
+      "description": "Public APIs exposing NASA datasets and services such as astronomy imagery and near-Earth object information.",
+      "category": "government",
+      "website": "https://api.nasa.gov",
+      "docs": "https://api.nasa.gov",
+      "auth": "api-key",
+      "pricing": "Free API access subject to NASA rate limits.",
+      "status": "active",
+      "tags": [
+        "space",
+        "science",
+        "nasa"
+      ]
+    },
+    {
+      "id": "nasa-earthdata",
+      "name": "NASA Earthdata APIs",
+      "description": "Earth science data, satellite observations, and research datasets.",
+      "category": "science",
+      "website": "https://www.earthdata.nasa.gov",
+      "docs": "https://www.earthdata.nasa.gov/learn/find-data/earthdata-search",
+      "auth": "custom",
+      "pricing": "Free public data access subject to account and dataset terms.",
+      "status": "active",
+      "tags": [
+        "science",
+        "earth",
+        "satellite"
+      ]
+    },
+    {
+      "id": "weather-gov",
+      "name": "National Weather Service API",
+      "description": "U.S. government weather forecasts, alerts, observations, and grid data.",
+      "category": "weather",
+      "website": "https://www.weather.gov",
+      "docs": "https://www.weather.gov/documentation/services-web-api",
+      "auth": "none",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "weather",
+        "government",
+        "forecasts"
+      ]
+    },
+    {
+      "id": "new-york-times",
+      "name": "New York Times API",
+      "description": "APIs for accessing New York Times articles, books, reviews, and other datasets.",
+      "category": "news",
+      "website": "https://developer.nytimes.com",
+      "docs": "https://developer.nytimes.com/apis",
+      "auth": "api-key",
+      "pricing": "Free developer access subject to published limits.",
+      "status": "active",
+      "tags": [
+        "news",
+        "articles",
+        "books"
+      ]
+    },
+    {
+      "id": "newsapi",
+      "name": "NewsAPI",
+      "description": "Search and retrieve news articles from publishers and sources.",
+      "category": "news",
+      "website": "https://newsapi.org",
+      "docs": "https://newsapi.org/docs",
+      "auth": "api-key",
+      "pricing": "Free developer plan and paid plans available.",
+      "status": "active",
+      "tags": [
+        "news",
+        "articles",
+        "search"
+      ]
+    },
+    {
+      "id": "nominatim",
+      "name": "Nominatim",
+      "description": "OpenStreetMap geocoding and reverse-geocoding service.",
+      "category": "geocoding",
+      "website": "https://nominatim.org",
+      "docs": "https://nominatim.org/release-docs/latest/api/Overview",
+      "auth": "none",
+      "pricing": "Free service subject to usage policy.",
+      "status": "active",
+      "tags": [
+        "geocoding",
+        "openstreetmap",
+        "maps"
+      ]
+    },
+    {
+      "id": "notion",
+      "name": "Notion API",
+      "description": "Create and manage pages, databases, blocks, users, and comments.",
+      "category": "productivity",
+      "website": "https://www.notion.com",
+      "docs": "https://developers.notion.com",
+      "auth": "bearer",
+      "pricing": "API access available subject to Notion plan and integration terms.",
+      "status": "active",
+      "tags": [
+        "productivity",
+        "documents",
+        "databases"
+      ]
+    },
+    {
+      "id": "npm",
+      "name": "npm Registry API",
+      "description": "Programmatic access to npm package registry metadata.",
+      "category": "developer-tools",
+      "website": "https://www.npmjs.com",
+      "docs": "https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md",
+      "auth": "none",
+      "pricing": "Free public registry access subject to limits.",
+      "status": "active",
+      "tags": [
+        "npm",
+        "packages",
+        "javascript"
+      ]
+    },
+    {
+      "id": "omdb",
+      "name": "OMDb API",
+      "description": "Movie and television information API.",
+      "category": "entertainment",
+      "website": "https://www.omdbapi.com",
+      "docs": "https://www.omdbapi.com",
+      "auth": "api-key",
+      "pricing": "Free tier and paid plans available.",
+      "status": "active",
+      "tags": [
+        "movies",
+        "tv",
+        "imdb"
+      ]
+    },
+    {
+      "id": "open-library",
+      "name": "Open Library API",
+      "description": "Public APIs for searching and accessing Open Library book and edition data.",
+      "category": "books",
+      "website": "https://openlibrary.org",
+      "docs": "https://openlibrary.org/developers/api",
+      "auth": "none",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "books",
+        "library",
+        "open-data"
+      ]
+    },
+    {
+      "id": "open-trivia",
+      "name": "Open Trivia Database",
+      "description": "Free trivia question database and API for games and applications.",
+      "category": "education",
+      "website": "https://opentdb.com",
+      "docs": "https://opentdb.com/api_config.php",
+      "auth": "none",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "trivia",
+        "education",
+        "games"
+      ]
+    },
+    {
+      "id": "open-meteo",
+      "name": "Open-Meteo",
+      "description": "Open weather APIs providing forecasts and historical weather data.",
+      "category": "weather",
+      "website": "https://open-meteo.com",
+      "docs": "https://open-meteo.com/en/docs",
+      "auth": "none",
+      "pricing": "Free for non-commercial use; commercial terms apply for higher-volume use.",
+      "status": "active",
+      "tags": [
+        "weather",
+        "forecast",
+        "climate"
+      ]
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI API",
+      "description": "APIs for building applications with OpenAI models and AI capabilities.",
+      "category": "ai",
+      "website": "https://openai.com",
+      "docs": "https://platform.openai.com/docs",
+      "auth": "api-key",
+      "pricing": "Paid usage with model-dependent pricing; check official pricing for current rates.",
+      "status": "active",
+      "tags": [
+        "ai",
+        "llm",
+        "generative-ai"
+      ]
+    },
+    {
+      "id": "opencage",
+      "name": "OpenCage Geocoding API",
+      "description": "Global forward and reverse geocoding API.",
+      "category": "geocoding",
+      "website": "https://opencagedata.com",
+      "docs": "https://opencagedata.com/api",
+      "auth": "api-key",
+      "pricing": "Free tier and paid plans available.",
+      "status": "active",
+      "tags": [
+        "geocoding",
+        "location",
+        "maps"
+      ]
+    },
+    {
+      "id": "open-fda",
+      "name": "openFDA",
+      "description": "Public FDA datasets for drugs, devices, food, and adverse events.",
+      "category": "health",
+      "website": "https://open.fda.gov",
+      "docs": "https://open.fda.gov/apis",
+      "auth": "none",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "health",
+        "fda",
+        "open-data"
+      ]
+    },
+    {
+      "id": "openstreetmap",
+      "name": "OpenStreetMap APIs",
+      "description": "Open geographic data and map-related APIs from OpenStreetMap.",
+      "category": "maps",
+      "website": "https://www.openstreetmap.org",
+      "docs": "https://wiki.openstreetmap.org/wiki/API",
+      "auth": "none",
+      "pricing": "Open data; service usage policies apply.",
+      "status": "active",
+      "tags": [
+        "maps",
+        "open-data",
+        "geography"
+      ]
+    },
+    {
+      "id": "opentripmap",
+      "name": "OpenTripMap API",
+      "description": "Tourist attractions, places, and travel information API.",
+      "category": "travel",
+      "website": "https://opentripmap.io",
+      "docs": "https://opentripmap.io/docs",
+      "auth": "api-key",
+      "pricing": "Free tier and paid plans available.",
+      "status": "active",
+      "tags": [
+        "travel",
+        "places",
+        "tourism"
+      ]
+    },
+    {
+      "id": "paypal",
+      "name": "PayPal REST API",
+      "description": "Payments, orders, payouts, subscriptions, and commerce APIs.",
+      "category": "payments",
+      "website": "https://developer.paypal.com",
+      "docs": "https://developer.paypal.com/api/rest",
+      "auth": "oauth2",
+      "pricing": "Transaction and product fees vary.",
+      "status": "active",
+      "tags": [
+        "payments",
+        "commerce",
+        "paypal"
+      ]
+    },
+    {
+      "id": "pokeapi",
+      "name": "PokéAPI",
+      "description": "Free RESTful and GraphQL API serving comprehensive Pokémon data.",
+      "category": "games",
+      "website": "https://pokeapi.co",
+      "docs": "https://pokeapi.co/docs/v2",
+      "auth": "none",
+      "pricing": "Free and open source.",
+      "status": "active",
+      "tags": [
+        "games",
+        "pokemon",
+        "graphql"
+      ]
+    },
+    {
+      "id": "polygon",
+      "name": "Polygon.io API",
+      "description": "Market data APIs for stocks, options, forex, and crypto.",
+      "category": "finance",
+      "website": "https://polygon.io",
+      "docs": "https://polygon.io/docs",
+      "auth": "api-key",
+      "pricing": "Free and paid plans available.",
+      "status": "active",
+      "tags": [
+        "stocks",
+        "options",
+        "markets"
+      ]
+    },
+    {
+      "id": "qrserver",
+      "name": "QRServer API",
+      "description": "Generate QR codes through a simple HTTP API.",
+      "category": "utilities",
+      "website": "https://goqr.me",
+      "docs": "https://goqr.me/api",
+      "auth": "none",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "qr",
+        "images",
+        "utilities"
+      ]
+    },
+    {
+      "id": "randomuser",
+      "name": "Random User Generator",
+      "description": "Generate realistic placeholder user profiles for development and testing.",
+      "category": "testing",
+      "website": "https://randomuser.me",
+      "docs": "https://randomuser.me/documentation",
+      "auth": "none",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "testing",
+        "mock-data",
+        "users"
+      ]
+    },
+    {
+      "id": "rawg",
+      "name": "RAWG Video Games Database API",
+      "description": "Video game discovery, metadata, platforms, genres, and screenshots API.",
+      "category": "games",
+      "website": "https://rawg.io",
+      "docs": "https://rawg.io/apidocs",
+      "auth": "api-key",
+      "pricing": "Free developer tier subject to terms.",
+      "status": "active",
+      "tags": [
+        "games",
+        "metadata",
+        "discovery"
+      ]
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit API",
+      "description": "Access Reddit communities, posts, comments, users, and moderation resources.",
+      "category": "social",
+      "website": "https://www.reddit.com",
+      "docs": "https://www.reddit.com/dev/api",
+      "auth": "oauth2",
+      "pricing": "Access subject to Reddit API terms and limits.",
+      "status": "active",
+      "tags": [
+        "social",
+        "reddit",
+        "communities"
+      ]
+    },
+    {
+      "id": "replicate",
+      "name": "Replicate API",
+      "description": "Run machine learning models through a hosted API.",
+      "category": "ai",
+      "website": "https://replicate.com",
+      "docs": "https://replicate.com/docs/reference/http",
+      "auth": "bearer",
+      "pricing": "Usage-based pricing; model costs vary.",
+      "status": "active",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "models"
+      ]
+    },
+    {
+      "id": "reqres",
+      "name": "ReqRes",
+      "description": "Hosted REST API for testing frontend and API integrations with realistic sample data.",
+      "category": "testing",
+      "website": "https://reqres.in",
+      "docs": "https://reqres.in/docs",
+      "auth": "api-key",
+      "pricing": "Free tier available; current limits and plans vary.",
+      "status": "active",
+      "tags": [
+        "testing",
+        "mock-api",
+        "prototyping"
+      ]
+    },
+    {
+      "id": "resend",
+      "name": "Resend API",
+      "description": "Developer-focused transactional email API.",
+      "category": "email",
+      "website": "https://resend.com",
+      "docs": "https://resend.com/docs",
+      "auth": "api-key",
+      "pricing": "Free tier and paid plans available.",
+      "status": "active",
+      "tags": [
+        "email",
+        "transactional",
+        "developers"
+      ]
+    },
+    {
+      "id": "rest-countries",
+      "name": "REST Countries",
+      "description": "Country information including names, capitals, regions, currencies, languages, and flags.",
+      "category": "government",
+      "website": "https://restcountries.com",
+      "docs": "https://restcountries.com",
+      "auth": "none",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "countries",
+        "geography",
+        "government"
+      ]
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify Admin API",
+      "description": "APIs for products, orders, customers, inventory, and ecommerce operations.",
+      "category": "ecommerce",
+      "website": "https://www.shopify.com",
+      "docs": "https://shopify.dev/docs/api",
+      "auth": "bearer",
+      "pricing": "Requires Shopify store/app context; plan terms vary.",
+      "status": "active",
+      "tags": [
+        "ecommerce",
+        "shopify",
+        "commerce"
+      ]
+    },
+    {
+      "id": "slack",
+      "name": "Slack Web API",
+      "description": "Programmatic access to Slack workspaces, messages, channels, users, and apps.",
+      "category": "productivity",
+      "website": "https://api.slack.com",
+      "docs": "https://api.slack.com/web",
+      "auth": "bearer",
+      "pricing": "Platform access subject to Slack limits and plan features.",
+      "status": "active",
+      "tags": [
+        "slack",
+        "messaging",
+        "workspaces"
+      ]
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify Web API",
+      "description": "API for accessing Spotify catalog metadata, playlists, users, playback, and recommendations.",
+      "category": "music",
+      "website": "https://developer.spotify.com",
+      "docs": "https://developer.spotify.com/documentation/web-api",
+      "auth": "oauth2",
+      "pricing": "Developer access subject to Spotify platform terms and limits.",
+      "status": "active",
+      "tags": [
+        "music",
+        "audio",
+        "playlists"
+      ]
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe API",
+      "description": "Payments, billing, subscriptions, invoices, and financial operations APIs.",
+      "category": "payments",
+      "website": "https://stripe.com",
+      "docs": "https://docs.stripe.com/api",
+      "auth": "bearer",
+      "pricing": "Usage-based fees; account and product pricing vary.",
+      "status": "active",
+      "tags": [
+        "payments",
+        "billing",
+        "subscriptions"
+      ]
+    },
+    {
+      "id": "telegram-bot",
+      "name": "Telegram Bot API",
+      "description": "HTTP API for building Telegram bots and integrations.",
+      "category": "messaging",
+      "website": "https://core.telegram.org/bots/api",
+      "docs": "https://core.telegram.org/bots/api",
+      "auth": "bearer",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "telegram",
+        "bots",
+        "messaging"
+      ]
+    },
+    {
+      "id": "themealdb",
+      "name": "TheMealDB",
+      "description": "Open recipe and meal database API with images, ingredients, categories, and areas.",
+      "category": "food",
+      "website": "https://www.themealdb.com",
+      "docs": "https://www.themealdb.com/api.php",
+      "auth": "api-key",
+      "pricing": "Free public API with optional paid supporter features.",
+      "status": "active",
+      "tags": [
+        "food",
+        "recipes",
+        "meals"
+      ]
+    },
+    {
+      "id": "thesportsdb",
+      "name": "TheSportsDB",
+      "description": "Sports teams, leagues, players, events, and media database API.",
+      "category": "sports",
+      "website": "https://www.thesportsdb.com",
+      "docs": "https://www.thesportsdb.com/api.php",
+      "auth": "api-key",
+      "pricing": "Free public API with optional premium access.",
+      "status": "active",
+      "tags": [
+        "sports",
+        "teams",
+        "players"
+      ]
+    },
+    {
+      "id": "tinyurl",
+      "name": "TinyURL API",
+      "description": "URL shortening service API.",
+      "category": "url",
+      "website": "https://tinyurl.com",
+      "docs": "https://tinyurl.com/app/dev",
+      "auth": "api-key",
+      "pricing": "Free and paid access options vary.",
+      "status": "active",
+      "tags": [
+        "url-shortener",
+        "links"
+      ]
+    },
+    {
+      "id": "tmdb",
+      "name": "TMDB API",
+      "description": "Movie and television metadata, credits, images, and search API.",
+      "category": "entertainment",
+      "website": "https://www.themoviedb.org",
+      "docs": "https://developer.themoviedb.org/docs",
+      "auth": "api-key",
+      "pricing": "Free for non-commercial use subject to terms.",
+      "status": "active",
+      "tags": [
+        "movies",
+        "tv",
+        "entertainment"
+      ]
+    },
+    {
+      "id": "transport-api",
+      "name": "TransportAPI",
+      "description": "Public transport, rail, and journey data APIs.",
+      "category": "transportation",
+      "website": "https://www.transportapi.com",
+      "docs": "https://www.transportapi.com",
+      "auth": "api-key",
+      "pricing": "Free developer access and paid options vary.",
+      "status": "active",
+      "tags": [
+        "transport",
+        "rail",
+        "travel"
+      ]
+    },
+    {
+      "id": "trello",
+      "name": "Trello API",
+      "description": "Boards, lists, cards, members, and automation APIs.",
+      "category": "productivity",
+      "website": "https://trello.com",
+      "docs": "https://developer.atlassian.com/cloud/trello/rest",
+      "auth": "api-key",
+      "pricing": "Free and paid Trello plans available.",
+      "status": "active",
+      "tags": [
+        "project-management",
+        "boards",
+        "tasks"
+      ]
+    },
+    {
+      "id": "twilio",
+      "name": "Twilio API",
+      "description": "Programmable communications APIs for SMS, voice, WhatsApp, email, and verification.",
+      "category": "messaging",
+      "website": "https://www.twilio.com",
+      "docs": "https://www.twilio.com/docs/usage/api",
+      "auth": "basic",
+      "pricing": "Usage-based pricing; free trial options vary.",
+      "status": "active",
+      "tags": [
+        "sms",
+        "voice",
+        "messaging"
+      ]
+    },
+    {
+      "id": "sendgrid",
+      "name": "Twilio SendGrid API",
+      "description": "Email delivery, templates, contacts, and marketing APIs.",
+      "category": "email",
+      "website": "https://sendgrid.com",
+      "docs": "https://www.twilio.com/docs/sendgrid/api-reference",
+      "auth": "api-key",
+      "pricing": "Free tier and paid plans available.",
+      "status": "active",
+      "tags": [
+        "email",
+        "delivery",
+        "marketing"
+      ]
+    },
+    {
+      "id": "us-census",
+      "name": "U.S. Census API",
+      "description": "Public demographic, economic, geographic, and population datasets.",
+      "category": "government",
+      "website": "https://www.census.gov",
+      "docs": "https://www.census.gov/data/developers/data-sets.html",
+      "auth": "none",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "government",
+        "demographics",
+        "open-data"
+      ]
+    },
+    {
+      "id": "un-data",
+      "name": "UN Data APIs",
+      "description": "United Nations datasets and statistical data services.",
+      "category": "open-data",
+      "website": "https://data.un.org",
+      "docs": "https://data.un.org/Host.aspx?Content=API",
+      "auth": "none",
+      "pricing": "Free public data access.",
+      "status": "active",
+      "tags": [
+        "open-data",
+        "un",
+        "statistics"
+      ]
+    },
+    {
+      "id": "unsplash",
+      "name": "Unsplash API",
+      "description": "Search and retrieve high-quality photographic images and metadata.",
+      "category": "images",
+      "website": "https://unsplash.com",
+      "docs": "https://unsplash.com/developers",
+      "auth": "api-key",
+      "pricing": "Free developer access subject to API guidelines.",
+      "status": "active",
+      "tags": [
+        "images",
+        "photos",
+        "search"
+      ]
+    },
+    {
+      "id": "usgs",
+      "name": "USGS APIs",
+      "description": "U.S. Geological Survey scientific and geospatial datasets.",
+      "category": "science",
+      "website": "https://www.usgs.gov",
+      "docs": "https://www.usgs.gov/products/data-and-tools/apis",
+      "auth": "none",
+      "pricing": "Free public APIs and datasets.",
+      "status": "active",
+      "tags": [
+        "science",
+        "geology",
+        "open-data"
+      ]
+    },
+    {
+      "id": "uuidtools",
+      "name": "UUIDTools",
+      "description": "UUID generation and validation service.",
+      "category": "utilities",
+      "website": "https://www.uuidtools.com",
+      "docs": "https://www.uuidtools.com/api",
+      "auth": "none",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "uuid",
+        "utilities",
+        "testing"
+      ]
+    },
+    {
+      "id": "virustotal",
+      "name": "VirusTotal API",
+      "description": "File, URL, domain, and threat intelligence analysis APIs.",
+      "category": "security",
+      "website": "https://www.virustotal.com",
+      "docs": "https://docs.virustotal.com",
+      "auth": "api-key",
+      "pricing": "Public API access and paid products vary.",
+      "status": "active",
+      "tags": [
+        "security",
+        "malware",
+        "threat-intelligence"
+      ]
+    },
+    {
+      "id": "weatherapi",
+      "name": "WeatherAPI.com",
+      "description": "Weather forecast, historical weather, astronomy, and location APIs.",
+      "category": "weather",
+      "website": "https://www.weatherapi.com",
+      "docs": "https://www.weatherapi.com/docs",
+      "auth": "api-key",
+      "pricing": "Free tier and paid plans available.",
+      "status": "active",
+      "tags": [
+        "weather",
+        "forecast",
+        "climate"
+      ]
+    },
+    {
+      "id": "woocommerce",
+      "name": "WooCommerce REST API",
+      "description": "Products, orders, customers, coupons, and store management API.",
+      "category": "ecommerce",
+      "website": "https://woocommerce.com",
+      "docs": "https://woocommerce.github.io/woocommerce-rest-api-docs",
+      "auth": "basic",
+      "pricing": "API included with WooCommerce; hosting and store costs vary.",
+      "status": "active",
+      "tags": [
+        "ecommerce",
+        "woocommerce",
+        "wordpress"
+      ]
+    },
+    {
+      "id": "world-bank",
+      "name": "World Bank API",
+      "description": "Global development indicators, economic data, and country statistics.",
+      "category": "open-data",
+      "website": "https://data.worldbank.org",
+      "docs": "https://datahelpdesk.worldbank.org/knowledgebase/topics/125589-developer-information",
+      "auth": "none",
+      "pricing": "Free public API.",
+      "status": "active",
+      "tags": [
+        "open-data",
+        "economics",
+        "development"
+      ]
+    },
+    {
+      "id": "youtube-data",
+      "name": "YouTube Data API",
+      "description": "API for accessing YouTube resources such as videos, channels, playlists, and search results.",
+      "category": "video",
+      "website": "https://developers.google.com/youtube/v3",
+      "docs": "https://developers.google.com/youtube/v3/docs",
+      "auth": "api-key",
+      "pricing": "Quota-based access with free daily quota allocation subject to Google policies.",
+      "status": "active",
+      "tags": [
+        "video",
+        "youtube",
+        "media",
+        "google"
+      ]
+    }
   ]
 }
