@@ -6,43 +6,31 @@ A structured, searchable directory of public APIs.
 
 ## Current catalog
 
-**23 APIs across 13 categories**, with metadata for authentication, pricing, documentation, status, and tags.
+- **102 API records** across **32 categories**
+- Structured metadata for authentication, pricing, status, tags, HTTPS, CORS, API type, formats, free tier, OpenAPI, SDKs, region, and verification
+- Source records live under `apis/`
+- Automated health checks run from GitHub Actions
+- Validation prevents malformed records and duplicate IDs
 
-## Phase 2
+## Phase 3
 
-Phase 2 expands the catalog and introduces automated health monitoring.
+Phase 3 turns apiatlas from a small API list into a real discovery dataset. The catalog now crosses AI, finance, crypto, maps, weather, news, social, productivity, payments, ecommerce, security, science, government, testing, entertainment, travel, and more.
 
-- 23 curated API records
-- Category-based source files
-- Generated aggregate catalog in `data/apis.json`
-- URL health checks for API websites and documentation
-- Scheduled GitHub Actions health report
-- Validation CI for every push and pull request
+## Data model
 
-## Repository layout
+Each API is a small JSON record so it can be consumed by a website, CLI, search engine, or another API without scraping Markdown.
 
-```text
-apis/                 # Source API records by category
-data/apis.json        # Generated aggregate catalog
-data/health.json      # Latest automated health report
-schema/api.schema.json
-scripts/              # Validation, indexing, and health checks
-.github/workflows/    # Validation and scheduled health monitoring
-```
+## Roadmap
 
-## Data sources
-
-Records are curated from publicly available API documentation and developer resources. The project does not claim affiliation with listed providers.
+1. 100+ structured APIs — **complete**
+2. Automated health monitoring — **complete**
+3. Search/discovery website — next
+4. API quality scoring and freshness ranking
+5. Community submissions and review workflow
 
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## Roadmap
-
-- Phase 3: 100+ APIs and richer metadata
-- Phase 4: searchable web directory
-- Phase 5: API playground, SDK snippets, ratings, and community submissions
 
 ## License
 
