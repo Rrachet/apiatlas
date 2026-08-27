@@ -1,0 +1,1 @@
+{"id":"nasa","name":"NASA APIs","description":"Public APIs exposing NASA datasets and services such as astronomy imagery and near-Earth object information.","category":"government","website":"https://api.nasa.gov","docs":"https://api.nasa.gov","auth":"api-key","pricing":"Free API access subject to NASA rate limits.","status":"active","tags":["space","science","nasa"]}
