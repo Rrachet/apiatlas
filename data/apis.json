@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "apis": [
+    {"id":"github","name":"GitHub REST API","description":"REST API for repositories, issues, pull requests, users, and other GitHub resources.","category":"developer-tools","website":"https://github.com","docs":"https://docs.github.com/en/rest","auth":"bearer","pricing":"Free public API access subject to rate limits; authenticated limits vary.","status":"active","tags":["developer-tools","git","github"]},
+    {"id":"nasa","name":"NASA APIs","description":"Public APIs exposing NASA datasets and services such as astronomy imagery and near-Earth object information.","category":"government","website":"https://api.nasa.gov","docs":"https://api.nasa.gov","auth":"api-key","pricing":"Free API access subject to NASA rate limits.","status":"active","tags":["space","science","nasa"]},
+    {"id":"openai","name":"OpenAI API","description":"APIs for building applications with OpenAI models and AI capabilities.","category":"ai","website":"https://openai.com","docs":"https://platform.openai.com/docs","auth":"api-key","pricing":"Paid usage with model-dependent pricing; check official pricing for current rates.","status":"active","tags":["ai","llm","generative-ai"]},
+    {"id":"open-meteo","name":"Open-Meteo","description":"Open weather APIs providing forecasts and historical weather data.","category":"weather","website":"https://open-meteo.com","docs":"https://open-meteo.com/en/docs","auth":"none","pricing":"Free for non-commercial use; commercial terms apply for higher-volume use.","status":"active","tags":["weather","forecast","climate"]},
+    {"id":"rest-countries","name":"REST Countries","description":"Country information including names, capitals, regions, currencies, languages, and flags.","category":"government","website":"https://restcountries.com","docs":"https://restcountries.com","auth":"none","pricing":"Free public API.","status":"active","tags":["countries","geography","government"]}
+  ]
+}
