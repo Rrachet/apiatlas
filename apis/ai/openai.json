@@ -1,0 +1,1 @@
+{"id":"openai","name":"OpenAI API","description":"APIs for building applications with OpenAI models and AI capabilities.","category":"ai","website":"https://openai.com","docs":"https://platform.openai.com/docs","auth":"api-key","pricing":"Paid usage with model-dependent pricing; check official pricing for current rates.","status":"active","tags":["ai","llm","generative-ai"]}
