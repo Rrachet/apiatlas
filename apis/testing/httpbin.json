@@ -1,0 +1,1 @@
+{"id":"httpbin","name":"httpbin","description":"HTTP request and response inspection service for testing clients.","category":"testing","website":"https://httpbin.org","docs":"https://httpbin.org","auth":"none","pricing":"Free public service.","status":"active","tags":["testing","http","debugging"]}

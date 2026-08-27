@@ -1,0 +1,1 @@
+{"id":"musicbrainz","name":"MusicBrainz API","description":"Open music metadata service for artists, releases, recordings, and labels.","category":"music","website":"https://musicbrainz.org","docs":"https://musicbrainz.org/doc/MusicBrainz_API","auth":"none","pricing":"Free public API with usage guidelines.","status":"active","tags":["music","metadata","open-data"]}

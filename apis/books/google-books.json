@@ -1,0 +1,1 @@
+{"id":"google-books","name":"Google Books API","description":"Search and retrieve book and volume metadata.","category":"books","website":"https://books.google.com","docs":"https://developers.google.com/books","auth":"api-key","pricing":"Free quota available; limits vary.","status":"active","tags":["books","google","search"]}

@@ -1,0 +1,1 @@
+{"id":"qrserver","name":"QRServer API","description":"Generate QR codes through a simple HTTP API.","category":"utilities","website":"https://goqr.me","docs":"https://goqr.me/api","auth":"none","pricing":"Free public API.","status":"active","tags":["qr","images","utilities"]}

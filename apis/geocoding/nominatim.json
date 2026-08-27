@@ -1,0 +1,1 @@
+{"id":"nominatim","name":"Nominatim","description":"OpenStreetMap geocoding and reverse-geocoding service.","category":"geocoding","website":"https://nominatim.org","docs":"https://nominatim.org/release-docs/latest/api/Overview","auth":"none","pricing":"Free service subject to usage policy.","status":"active","tags":["geocoding","openstreetmap","maps"]}

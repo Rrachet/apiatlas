@@ -1,0 +1,1 @@
+{"id":"virustotal","name":"VirusTotal API","description":"File, URL, domain, and threat intelligence analysis APIs.","category":"security","website":"https://www.virustotal.com","docs":"https://docs.virustotal.com","auth":"api-key","pricing":"Public API access and paid products vary.","status":"active","tags":["security","malware","threat-intelligence"]}

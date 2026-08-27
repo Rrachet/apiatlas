@@ -1,0 +1,1 @@
+{"id":"anilist","name":"AniList API","description":"GraphQL API for anime and manga discovery and tracking.","category":"anime","website":"https://anilist.co","docs":"https://anilist.github.io/ApiV2-GraphQL-Docs","auth":"oauth2","pricing":"Free public API.","status":"active","tags":["anime","manga","graphql"]}

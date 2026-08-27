@@ -1,0 +1,1 @@
+{"id":"stripe","name":"Stripe API","description":"Payments, billing, subscriptions, invoices, and financial operations APIs.","category":"payments","website":"https://stripe.com","docs":"https://docs.stripe.com/api","auth":"bearer","pricing":"Usage-based fees; account and product pricing vary.","status":"active","tags":["payments","billing","subscriptions"]}

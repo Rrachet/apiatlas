@@ -1,0 +1,1 @@
+{"id":"docker-hub","name":"Docker Hub API","description":"API for Docker Hub repositories, images, tags, and registry metadata.","category":"developer-tools","website":"https://hub.docker.com","docs":"https://docs.docker.com/docker-hub/api","auth":"bearer","pricing":"Free and paid plans available.","status":"active","tags":["docker","containers","registry"]}

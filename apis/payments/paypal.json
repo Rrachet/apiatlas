@@ -1,0 +1,1 @@
+{"id":"paypal","name":"PayPal REST API","description":"Payments, orders, payouts, subscriptions, and commerce APIs.","category":"payments","website":"https://developer.paypal.com","docs":"https://developer.paypal.com/api/rest","auth":"oauth2","pricing":"Transaction and product fees vary.","status":"active","tags":["payments","commerce","paypal"]}

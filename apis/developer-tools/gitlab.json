@@ -1,0 +1,1 @@
+{"id":"gitlab","name":"GitLab API","description":"REST and GraphQL APIs for GitLab projects, issues, users, and CI/CD.","category":"developer-tools","website":"https://gitlab.com","docs":"https://docs.gitlab.com/api","auth":"bearer","pricing":"Free public access subject to GitLab limits and plan features.","status":"active","tags":["git","devops","ci-cd"]}

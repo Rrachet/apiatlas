@@ -1,0 +1,1 @@
+{"id":"weather-gov","name":"National Weather Service API","description":"U.S. government weather forecasts, alerts, observations, and grid data.","category":"weather","website":"https://www.weather.gov","docs":"https://www.weather.gov/documentation/services-web-api","auth":"none","pricing":"Free public API.","status":"active","tags":["weather","government","forecasts"]}

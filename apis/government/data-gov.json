@@ -1,0 +1,1 @@
+{"id":"data-gov","name":"Data.gov APIs","description":"Access U.S. government open datasets and catalog metadata.","category":"government","website":"https://data.gov","docs":"https://api.data.gov","auth":"api-key","pricing":"Free public access with API key for many services.","status":"active","tags":["government","open-data","datasets"]}

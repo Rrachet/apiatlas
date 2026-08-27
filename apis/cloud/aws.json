@@ -1,0 +1,1 @@
+{"id":"aws","name":"AWS APIs","description":"Programmatic APIs across Amazon Web Services cloud products.","category":"cloud","website":"https://aws.amazon.com","docs":"https://docs.aws.amazon.com","auth":"custom","pricing":"Service-specific usage pricing.","status":"active","tags":["cloud","aws","infrastructure"]}

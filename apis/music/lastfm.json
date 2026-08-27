@@ -1,0 +1,1 @@
+{"id":"lastfm","name":"Last.fm API","description":"Music metadata, artist, album, track, tag, and user listening data.","category":"music","website":"https://www.last.fm","docs":"https://www.last.fm/api","auth":"api-key","pricing":"Free API access subject to terms.","status":"active","tags":["music","artists","scrobbling"]}

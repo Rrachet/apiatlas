@@ -1,0 +1,1 @@
+{"id":"reddit","name":"Reddit API","description":"Access Reddit communities, posts, comments, users, and moderation resources.","category":"social","website":"https://www.reddit.com","docs":"https://www.reddit.com/dev/api","auth":"oauth2","pricing":"Access subject to Reddit API terms and limits.","status":"active","tags":["social","reddit","communities"]}

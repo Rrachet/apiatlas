@@ -1,0 +1,1 @@
+{"id":"google-cloud","name":"Google Cloud APIs","description":"APIs for Google Cloud compute, storage, data, AI, and infrastructure services.","category":"cloud","website":"https://cloud.google.com","docs":"https://cloud.google.com/apis","auth":"oauth2","pricing":"Service-specific usage pricing.","status":"active","tags":["cloud","google","infrastructure"]}

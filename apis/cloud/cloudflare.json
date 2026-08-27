@@ -1,0 +1,1 @@
+{"id":"cloudflare","name":"Cloudflare API","description":"APIs for Cloudflare zones, DNS, security, Workers, and edge services.","category":"cloud","website":"https://www.cloudflare.com","docs":"https://developers.cloudflare.com/api","auth":"bearer","pricing":"Free and paid products available.","status":"active","tags":["cloud","edge","dns"]}

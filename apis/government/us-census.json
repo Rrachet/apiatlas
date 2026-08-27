@@ -1,0 +1,1 @@
+{"id":"us-census","name":"U.S. Census API","description":"Public demographic, economic, geographic, and population datasets.","category":"government","website":"https://www.census.gov","docs":"https://www.census.gov/data/developers/data-sets.html","auth":"none","pricing":"Free public API.","status":"active","tags":["government","demographics","open-data"]}

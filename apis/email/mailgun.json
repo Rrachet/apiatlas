@@ -1,0 +1,1 @@
+{"id":"mailgun","name":"Mailgun API","description":"Email sending, receiving, validation, and delivery APIs.","category":"email","website":"https://www.mailgun.com","docs":"https://documentation.mailgun.com","auth":"api-key","pricing":"Free trial/credits and paid plans vary.","status":"active","tags":["email","delivery","smtp"]}

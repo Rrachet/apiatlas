@@ -1,0 +1,1 @@
+{"id":"sendgrid","name":"Twilio SendGrid API","description":"Email delivery, templates, contacts, and marketing APIs.","category":"email","website":"https://sendgrid.com","docs":"https://www.twilio.com/docs/sendgrid/api-reference","auth":"api-key","pricing":"Free tier and paid plans available.","status":"active","tags":["email","delivery","marketing"]}

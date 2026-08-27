@@ -1,0 +1,1 @@
+{"id":"trello","name":"Trello API","description":"Boards, lists, cards, members, and automation APIs.","category":"productivity","website":"https://trello.com","docs":"https://developer.atlassian.com/cloud/trello/rest","auth":"api-key","pricing":"Free and paid Trello plans available.","status":"active","tags":["project-management","boards","tasks"]}

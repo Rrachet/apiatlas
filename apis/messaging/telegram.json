@@ -1,0 +1,1 @@
+{"id":"telegram-bot","name":"Telegram Bot API","description":"HTTP API for building Telegram bots and integrations.","category":"messaging","website":"https://core.telegram.org/bots/api","docs":"https://core.telegram.org/bots/api","auth":"bearer","pricing":"Free public API.","status":"active","tags":["telegram","bots","messaging"]}

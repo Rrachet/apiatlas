@@ -1,0 +1,1 @@
+{"id":"npm","name":"npm Registry API","description":"Programmatic access to npm package registry metadata.","category":"developer-tools","website":"https://www.npmjs.com","docs":"https://github.com/npm/registry/blob/master/docs/REGISTRY-API.md","auth":"none","pricing":"Free public registry access subject to limits.","status":"active","tags":["npm","packages","javascript"]}

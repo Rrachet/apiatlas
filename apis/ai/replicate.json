@@ -1,0 +1,1 @@
+{"id":"replicate","name":"Replicate API","description":"Run machine learning models through a hosted API.","category":"ai","website":"https://replicate.com","docs":"https://replicate.com/docs/reference/http","auth":"bearer","pricing":"Usage-based pricing; model costs vary.","status":"active","tags":["ai","machine-learning","models"]}

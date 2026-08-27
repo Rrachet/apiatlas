@@ -1,0 +1,1 @@
+{"id":"anthropic","name":"Anthropic API","description":"API for Claude family models and AI applications.","category":"ai","website":"https://www.anthropic.com","docs":"https://docs.anthropic.com","auth":"api-key","pricing":"Paid usage with model-dependent pricing.","status":"active","tags":["ai","llm","claude"]}

@@ -1,0 +1,1 @@
+{"id":"tmdb","name":"TMDB API","description":"Movie and television metadata, credits, images, and search API.","category":"entertainment","website":"https://www.themoviedb.org","docs":"https://developer.themoviedb.org/docs","auth":"api-key","pricing":"Free for non-commercial use subject to terms.","status":"active","tags":["movies","tv","entertainment"]}

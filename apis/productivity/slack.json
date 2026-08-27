@@ -1,0 +1,1 @@
+{"id":"slack","name":"Slack Web API","description":"Programmatic access to Slack workspaces, messages, channels, users, and apps.","category":"productivity","website":"https://api.slack.com","docs":"https://api.slack.com/web","auth":"bearer","pricing":"Platform access subject to Slack limits and plan features.","status":"active","tags":["slack","messaging","workspaces"]}

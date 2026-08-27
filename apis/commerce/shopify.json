@@ -1,0 +1,1 @@
+{"id":"shopify","name":"Shopify Admin API","description":"APIs for products, orders, customers, inventory, and ecommerce operations.","category":"ecommerce","website":"https://www.shopify.com","docs":"https://shopify.dev/docs/api","auth":"bearer","pricing":"Requires Shopify store/app context; plan terms vary.","status":"active","tags":["ecommerce","shopify","commerce"]}

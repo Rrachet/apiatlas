@@ -1,0 +1,1 @@
+{"id":"notion","name":"Notion API","description":"Create and manage pages, databases, blocks, users, and comments.","category":"productivity","website":"https://www.notion.com","docs":"https://developers.notion.com","auth":"bearer","pricing":"API access available subject to Notion plan and integration terms.","status":"active","tags":["productivity","documents","databases"]}
