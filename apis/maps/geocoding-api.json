@@ -1,0 +1,1 @@
+{"id":"geocoding-api","name":"Geocoding API","description":"Geocoding and reverse geocoding service based on OpenStreetMap data.","category":"maps","website":"https://geocode.maps.co","docs":"https://geocode.maps.co","auth":"api-key","pricing":"Free tier available; current limits and terms vary.","status":"active","tags":["maps","geocoding","openstreetmap"]}
