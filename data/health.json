@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-07T11:13:31.397Z",
+  "checked_at": "2026-09-08T10:23:43.040Z",
   "total": 116,
   "healthy": 93,
   "failed": 23,
@@ -10,12 +10,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 200
+        "ms": 164
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 397
+        "ms": 678
       }
     },
     {
@@ -24,12 +24,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 209
+        "ms": 460
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 171
+        "ms": 144
       }
     },
     {
@@ -38,12 +38,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 472
+        "ms": 417
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 344
+        "ms": 336
       }
     },
     {
@@ -52,12 +52,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 50
+        "ms": 42
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 92
+        "ms": 244
       }
     },
     {
@@ -66,12 +66,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 30
+        "ms": 57
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 175
+        "ms": 327
       }
     },
     {
@@ -80,12 +80,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 463
+        "ms": 684
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 47
+        "ms": 257
       }
     },
     {
@@ -94,12 +94,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 47
+        "ms": 177
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 39
+        "ms": 127
       }
     },
     {
@@ -108,12 +108,12 @@
       "website": {
         "ok": false,
         "status": 404,
-        "ms": 414
+        "ms": 622
       },
       "docs": {
         "ok": false,
         "status": 404,
-        "ms": 311
+        "ms": 600
       }
     },
     {
@@ -122,12 +122,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 241
+        "ms": 304
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 112
+        "ms": 184
       }
     },
     {
@@ -136,12 +136,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 35
+        "ms": 279
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 25
+        "ms": 57
       }
     },
     {
@@ -150,12 +150,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 53
+        "ms": 177
       },
       "docs": {
         "ok": false,
         "status": 404,
-        "ms": 26
+        "ms": 113
       }
     },
     {
@@ -164,12 +164,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 305
+        "ms": 401
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 818
+        "ms": 587
       }
     },
     {
@@ -178,12 +178,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 37
+        "ms": 91
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 212
+        "ms": 1077
       }
     },
     {
@@ -192,12 +192,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 1933
+        "ms": 6210
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 2975
+        "ms": 3693
       }
     },
     {
@@ -206,12 +206,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 168
+        "ms": 192
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 506
+        "ms": 603
       }
     },
     {
@@ -220,1001 +220,7 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 175
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 55
-      }
-    },
-    {
-      "id": "holidayapi",
-      "name": "Holiday API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 103
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 53
-      }
-    },
-    {
-      "id": "aws",
-      "name": "AWS APIs",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 147
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 119
-      }
-    },
-    {
-      "id": "cloudflare",
-      "name": "Cloudflare API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 50
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 188
-      }
-    },
-    {
-      "id": "google-cloud",
-      "name": "Google Cloud APIs",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 181
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 250
-      }
-    },
-    {
-      "id": "shopify",
-      "name": "Shopify Admin API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 229
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 103
-      }
-    },
-    {
-      "id": "woocommerce",
-      "name": "WooCommerce REST API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 98
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 117
-      }
-    },
-    {
-      "id": "binance",
-      "name": "Binance API",
-      "website": {
-        "ok": true,
-        "status": 202,
-        "ms": 204
-      },
-      "docs": {
-        "ok": true,
-        "status": 202,
-        "ms": 231
-      }
-    },
-    {
-      "id": "coinpaprika",
-      "name": "CoinPaprika API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 112
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 315
-      }
-    },
-    {
-      "id": "currencyapi",
-      "name": "CurrencyAPI",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 100
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 625
-      }
-    },
-    {
-      "id": "datausa",
-      "name": "Data USA API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 40
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 25
-      }
-    },
-    {
-      "id": "un-data",
-      "name": "UN Data APIs",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 376
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 842
-      }
-    },
-    {
-      "id": "world-bank",
-      "name": "World Bank API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 65
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 433
-      }
-    },
-    {
-      "id": "docker-hub",
-      "name": "Docker Hub API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 124
-      },
-      "docs": {
-        "ok": false,
-        "status": 404,
-        "ms": 169
-      }
-    },
-    {
-      "id": "github",
-      "name": "GitHub REST API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 16
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 71
-      }
-    },
-    {
-      "id": "gitlab",
-      "name": "GitLab API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 139
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 63
-      }
-    },
-    {
-      "id": "npm",
-      "name": "npm Registry API",
-      "website": {
-        "ok": false,
-        "status": 403,
-        "ms": 24
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 457
-      }
-    },
-    {
-      "id": "open-trivia",
-      "name": "Open Trivia Database",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 63
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 51
-      }
-    },
-    {
-      "id": "mailgun",
-      "name": "Mailgun API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 120
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 137
-      }
-    },
-    {
-      "id": "resend",
-      "name": "Resend API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 285
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 245
-      }
-    },
-    {
-      "id": "sendgrid",
-      "name": "Twilio SendGrid API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 226
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 53
-      }
-    },
-    {
-      "id": "omdb",
-      "name": "OMDb API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 146
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 51
-      }
-    },
-    {
-      "id": "tmdb",
-      "name": "TMDB API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 167
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 275
-      }
-    },
-    {
-      "id": "alpha-vantage",
-      "name": "Alpha Vantage API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 44
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 59
-      }
-    },
-    {
-      "id": "coingecko",
-      "name": "CoinGecko API",
-      "website": {
-        "ok": false,
-        "status": 403,
-        "ms": 49
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 84
-      }
-    },
-    {
-      "id": "exchangerate-host",
-      "name": "ExchangeRate.host",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 211
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 414
-      }
-    },
-    {
-      "id": "finnhub",
-      "name": "Finnhub API",
-      "website": {
-        "ok": false,
-        "status": 429,
-        "ms": 395
-      },
-      "docs": {
-        "ok": false,
-        "status": 429,
-        "ms": 27
-      }
-    },
-    {
-      "id": "frankfurter",
-      "name": "Frankfurter",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 77
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 52
-      }
-    },
-    {
-      "id": "polygon",
-      "name": "Polygon.io API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 185
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 167
-      }
-    },
-    {
-      "id": "themealdb",
-      "name": "TheMealDB",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 194
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 111
-      }
-    },
-    {
-      "id": "cheapshark",
-      "name": "CheapShark API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 45
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 203
-      }
-    },
-    {
-      "id": "pokeapi",
-      "name": "PokéAPI",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 29
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 25
-      }
-    },
-    {
-      "id": "rawg",
-      "name": "RAWG Video Games Database API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 1036
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 111
-      }
-    },
-    {
-      "id": "nominatim",
-      "name": "Nominatim",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 549
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 951
-      }
-    },
-    {
-      "id": "opencage",
-      "name": "OpenCage Geocoding API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 254
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 255
-      }
-    },
-    {
-      "id": "data-gov",
-      "name": "Data.gov APIs",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 91
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 378
-      }
-    },
-    {
-      "id": "nasa",
-      "name": "NASA APIs",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 367
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 325
-      }
-    },
-    {
-      "id": "rest-countries",
-      "name": "REST Countries",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 1057
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 164
-      }
-    },
-    {
-      "id": "us-census",
-      "name": "U.S. Census API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 84
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 180
-      }
-    },
-    {
-      "id": "disease-sh",
-      "name": "Disease.sh",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 330
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 606
-      }
-    },
-    {
-      "id": "open-fda",
-      "name": "openFDA",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 105
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 227
-      }
-    },
-    {
-      "id": "picsum",
-      "name": "Lorem Picsum",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 143
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 131
-      }
-    },
-    {
-      "id": "unsplash",
-      "name": "Unsplash API",
-      "website": {
-        "ok": false,
-        "status": 401,
-        "ms": 191
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 183
-      }
-    },
-    {
-      "id": "wikimedia",
-      "name": "Wikimedia APIs",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 23
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 196
-      }
-    },
-    {
-      "id": "deepl",
-      "name": "DeepL API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 217
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 249
-      }
-    },
-    {
-      "id": "google-translate",
-      "name": "Google Cloud Translation API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 239
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 667
-      }
-    },
-    {
-      "id": "ip-api",
-      "name": "IP-API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 30
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 19
-      }
-    },
-    {
-      "id": "ipinfo",
-      "name": "IPinfo API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 148
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 49
-      }
-    },
-    {
-      "id": "geocoding-api",
-      "name": "Geocoding API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 43
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 55
-      }
-    },
-    {
-      "id": "google-maps",
-      "name": "Google Maps Platform",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 24
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 350
-      }
-    },
-    {
-      "id": "mapbox",
-      "name": "Mapbox APIs",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 220
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 140
-      }
-    },
-    {
-      "id": "nominatim",
-      "name": "Nominatim",
-      "website": {
-        "ok": false,
-        "status": 403,
-        "ms": 15
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 431
-      }
-    },
-    {
-      "id": "openrouteservice",
-      "name": "openrouteservice",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 668
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 405
-      }
-    },
-    {
-      "id": "openstreetmap",
-      "name": "OpenStreetMap APIs",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 148
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 575
-      }
-    },
-    {
-      "id": "telegram-bot",
-      "name": "Telegram Bot API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 360
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 381
-      }
-    },
-    {
-      "id": "twilio",
-      "name": "Twilio API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 122
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 52
-      }
-    },
-    {
-      "id": "nager-date",
-      "name": "Nager.Date",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 292
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 291
-      }
-    },
-    {
-      "id": "lastfm",
-      "name": "Last.fm API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 390
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 116
-      }
-    },
-    {
-      "id": "musicbrainz",
-      "name": "MusicBrainz API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 747
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 388
-      }
-    },
-    {
-      "id": "spotify",
-      "name": "Spotify Web API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 139
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 37
-      }
-    },
-    {
-      "id": "gnews",
-      "name": "GNews API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 130
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 67
-      }
-    },
-    {
-      "id": "guardian",
-      "name": "Guardian Open Platform",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 138
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 47
-      }
-    },
-    {
-      "id": "hacker-news",
-      "name": "Hacker News API",
-      "website": {
-        "ok": false,
-        "status": 405,
-        "ms": 299
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 300
-      }
-    },
-    {
-      "id": "new-york-times",
-      "name": "New York Times API",
-      "website": {
-        "ok": false,
-        "status": 403,
-        "ms": 285
-      },
-      "docs": {
-        "ok": false,
-        "status": 403,
-        "ms": 194
-      }
-    },
-    {
-      "id": "newsapi",
-      "name": "NewsAPI",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 53
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 54
-      }
-    },
-    {
-      "id": "europeana",
-      "name": "Europeana API",
-      "website": {
-        "ok": false,
-        "status": 403,
-        "ms": 51
-      },
-      "docs": {
-        "ok": false,
-        "status": 403,
-        "ms": 288
-      }
-    },
-    {
-      "id": "transport-api",
-      "name": "TransportAPI",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 264
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 105
-      }
-    },
-    {
-      "id": "paypal",
-      "name": "PayPal REST API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 240
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 295
-      }
-    },
-    {
-      "id": "stripe",
-      "name": "Stripe API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 258
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 417
-      }
-    },
-    {
-      "id": "notion",
-      "name": "Notion API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 214
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 324
-      }
-    },
-    {
-      "id": "slack",
-      "name": "Slack Web API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 226
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 65
-      }
-    },
-    {
-      "id": "trello",
-      "name": "Trello API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 92
+        "ms": 232
       },
       "docs": {
         "ok": true,
@@ -1223,40 +229,110 @@
       }
     },
     {
-      "id": "themealdb",
-      "name": "TheMealDB",
+      "id": "holidayapi",
+      "name": "Holiday API",
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 195
+        "ms": 179
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 198
+        "ms": 101
       }
     },
     {
-      "id": "crossref",
-      "name": "Crossref",
+      "id": "aws",
+      "name": "AWS APIs",
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 225
+        "ms": 131
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 315
+        "ms": 150
       }
     },
     {
-      "id": "openalex",
-      "name": "OpenAlex",
+      "id": "cloudflare",
+      "name": "Cloudflare API",
       "website": {
-        "ok": false,
-        "status": 403,
-        "ms": 20
+        "ok": true,
+        "status": 200,
+        "ms": 181
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 157
+      }
+    },
+    {
+      "id": "google-cloud",
+      "name": "Google Cloud APIs",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 284
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 364
+      }
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify Admin API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 257
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 222
+      }
+    },
+    {
+      "id": "woocommerce",
+      "name": "WooCommerce REST API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 90
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 220
+      }
+    },
+    {
+      "id": "binance",
+      "name": "Binance API",
+      "website": {
+        "ok": true,
+        "status": 202,
+        "ms": 57
+      },
+      "docs": {
+        "ok": true,
+        "status": 202,
+        "ms": 482
+      }
+    },
+    {
+      "id": "coinpaprika",
+      "name": "CoinPaprika API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 115
       },
       "docs": {
         "ok": true,
@@ -1265,26 +341,96 @@
       }
     },
     {
-      "id": "orcid",
-      "name": "ORCID API",
+      "id": "currencyapi",
+      "name": "CurrencyAPI",
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 157
+        "ms": 128
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 166
+        "ms": 898
       }
     },
     {
-      "id": "semantic-scholar",
-      "name": "Semantic Scholar API",
+      "id": "datausa",
+      "name": "Data USA API",
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 140
+        "ms": 228
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 63
+      }
+    },
+    {
+      "id": "un-data",
+      "name": "UN Data APIs",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 673
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 874
+      }
+    },
+    {
+      "id": "world-bank",
+      "name": "World Bank API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 69
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 519
+      }
+    },
+    {
+      "id": "docker-hub",
+      "name": "Docker Hub API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 442
+      },
+      "docs": {
+        "ok": false,
+        "status": 404,
+        "ms": 350
+      }
+    },
+    {
+      "id": "github",
+      "name": "GitHub REST API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 160
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 115
+      }
+    },
+    {
+      "id": "gitlab",
+      "name": "GitLab API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 303
       },
       "docs": {
         "ok": true,
@@ -1293,12 +439,868 @@
       }
     },
     {
+      "id": "npm",
+      "name": "npm Registry API",
+      "website": {
+        "ok": false,
+        "status": 403,
+        "ms": 74
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 739
+      }
+    },
+    {
+      "id": "open-trivia",
+      "name": "Open Trivia Database",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 349
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 258
+      }
+    },
+    {
+      "id": "mailgun",
+      "name": "Mailgun API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 189
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 299
+      }
+    },
+    {
+      "id": "resend",
+      "name": "Resend API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 219
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 426
+      }
+    },
+    {
+      "id": "sendgrid",
+      "name": "Twilio SendGrid API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 652
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 299
+      }
+    },
+    {
+      "id": "omdb",
+      "name": "OMDb API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 139
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 79
+      }
+    },
+    {
+      "id": "tmdb",
+      "name": "TMDB API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 303
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 178
+      }
+    },
+    {
+      "id": "alpha-vantage",
+      "name": "Alpha Vantage API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 165
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 269
+      }
+    },
+    {
+      "id": "coingecko",
+      "name": "CoinGecko API",
+      "website": {
+        "ok": false,
+        "status": 403,
+        "ms": 90
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 389
+      }
+    },
+    {
+      "id": "exchangerate-host",
+      "name": "ExchangeRate.host",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 413
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 754
+      }
+    },
+    {
+      "id": "finnhub",
+      "name": "Finnhub API",
+      "website": {
+        "ok": false,
+        "status": 0,
+        "ms": 2573,
+        "error": "fetch failed"
+      },
+      "docs": {
+        "ok": false,
+        "status": 0,
+        "ms": 2421,
+        "error": "fetch failed"
+      }
+    },
+    {
+      "id": "frankfurter",
+      "name": "Frankfurter",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 190
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 283
+      }
+    },
+    {
+      "id": "polygon",
+      "name": "Polygon.io API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 481
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 466
+      }
+    },
+    {
+      "id": "themealdb",
+      "name": "TheMealDB",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 263
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 181
+      }
+    },
+    {
+      "id": "cheapshark",
+      "name": "CheapShark API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 129
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 684
+      }
+    },
+    {
+      "id": "pokeapi",
+      "name": "PokéAPI",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 75
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 43
+      }
+    },
+    {
+      "id": "rawg",
+      "name": "RAWG Video Games Database API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 3929
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 214
+      }
+    },
+    {
+      "id": "nominatim",
+      "name": "Nominatim",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 738
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 1472
+      }
+    },
+    {
+      "id": "opencage",
+      "name": "OpenCage Geocoding API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 495
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 448
+      }
+    },
+    {
+      "id": "data-gov",
+      "name": "Data.gov APIs",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 62
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 219
+      }
+    },
+    {
+      "id": "nasa",
+      "name": "NASA APIs",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 267
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 157
+      }
+    },
+    {
+      "id": "rest-countries",
+      "name": "REST Countries",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 311
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 157
+      }
+    },
+    {
+      "id": "us-census",
+      "name": "U.S. Census API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 219
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 155
+      }
+    },
+    {
+      "id": "disease-sh",
+      "name": "Disease.sh",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 912
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 435
+      }
+    },
+    {
+      "id": "open-fda",
+      "name": "openFDA",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 317
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 317
+      }
+    },
+    {
+      "id": "picsum",
+      "name": "Lorem Picsum",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 683
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 238
+      }
+    },
+    {
+      "id": "unsplash",
+      "name": "Unsplash API",
+      "website": {
+        "ok": false,
+        "status": 401,
+        "ms": 481
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 444
+      }
+    },
+    {
+      "id": "wikimedia",
+      "name": "Wikimedia APIs",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 141
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 244
+      }
+    },
+    {
+      "id": "deepl",
+      "name": "DeepL API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 242
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 315
+      }
+    },
+    {
+      "id": "google-translate",
+      "name": "Google Cloud Translation API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 354
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 1273
+      }
+    },
+    {
+      "id": "ip-api",
+      "name": "IP-API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 170
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 52
+      }
+    },
+    {
+      "id": "ipinfo",
+      "name": "IPinfo API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 103
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 57
+      }
+    },
+    {
+      "id": "geocoding-api",
+      "name": "Geocoding API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 317
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 247
+      }
+    },
+    {
+      "id": "google-maps",
+      "name": "Google Maps Platform",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 75
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 721
+      }
+    },
+    {
+      "id": "mapbox",
+      "name": "Mapbox APIs",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 199
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 427
+      }
+    },
+    {
+      "id": "nominatim",
+      "name": "Nominatim",
+      "website": {
+        "ok": false,
+        "status": 403,
+        "ms": 34
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 413
+      }
+    },
+    {
+      "id": "openrouteservice",
+      "name": "openrouteservice",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 615
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 732
+      }
+    },
+    {
+      "id": "openstreetmap",
+      "name": "OpenStreetMap APIs",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 582
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 573
+      }
+    },
+    {
+      "id": "telegram-bot",
+      "name": "Telegram Bot API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 521
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 472
+      }
+    },
+    {
+      "id": "twilio",
+      "name": "Twilio API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 140
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 320
+      }
+    },
+    {
+      "id": "nager-date",
+      "name": "Nager.Date",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 648
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 589
+      }
+    },
+    {
+      "id": "lastfm",
+      "name": "Last.fm API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 174
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 135
+      }
+    },
+    {
+      "id": "musicbrainz",
+      "name": "MusicBrainz API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 804
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 471
+      }
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify Web API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 125
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 72
+      }
+    },
+    {
+      "id": "gnews",
+      "name": "GNews API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 354
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 369
+      }
+    },
+    {
+      "id": "guardian",
+      "name": "Guardian Open Platform",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 113
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 196
+      }
+    },
+    {
+      "id": "hacker-news",
+      "name": "Hacker News API",
+      "website": {
+        "ok": false,
+        "status": 405,
+        "ms": 104
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 503
+      }
+    },
+    {
+      "id": "new-york-times",
+      "name": "New York Times API",
+      "website": {
+        "ok": false,
+        "status": 403,
+        "ms": 265
+      },
+      "docs": {
+        "ok": false,
+        "status": 403,
+        "ms": 222
+      }
+    },
+    {
+      "id": "newsapi",
+      "name": "NewsAPI",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 392
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 284
+      }
+    },
+    {
+      "id": "europeana",
+      "name": "Europeana API",
+      "website": {
+        "ok": false,
+        "status": 403,
+        "ms": 145
+      },
+      "docs": {
+        "ok": false,
+        "status": 403,
+        "ms": 149
+      }
+    },
+    {
+      "id": "transport-api",
+      "name": "TransportAPI",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 416
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 208
+      }
+    },
+    {
+      "id": "paypal",
+      "name": "PayPal REST API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 319
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 229
+      }
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 220
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 382
+      }
+    },
+    {
+      "id": "notion",
+      "name": "Notion API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 244
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 270
+      }
+    },
+    {
+      "id": "slack",
+      "name": "Slack Web API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 610
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 513
+      }
+    },
+    {
+      "id": "trello",
+      "name": "Trello API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 37
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 425
+      }
+    },
+    {
+      "id": "themealdb",
+      "name": "TheMealDB",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 198
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 328
+      }
+    },
+    {
+      "id": "crossref",
+      "name": "Crossref",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 336
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 302
+      }
+    },
+    {
+      "id": "openalex",
+      "name": "OpenAlex",
+      "website": {
+        "ok": false,
+        "status": 403,
+        "ms": 183
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 350
+      }
+    },
+    {
+      "id": "orcid",
+      "name": "ORCID API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 248
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 231
+      }
+    },
+    {
+      "id": "semantic-scholar",
+      "name": "Semantic Scholar API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 129
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 90
+      }
+    },
+    {
       "id": "nasa-earthdata",
       "name": "NASA Earthdata APIs",
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 66
+        "ms": 84
       },
       "docs": {
         "ok": false,
@@ -1312,7 +1314,7 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 92
+        "ms": 47
       },
       "docs": {
         "ok": false,
@@ -1326,12 +1328,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 108
+        "ms": 144
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 105
+        "ms": 212
       }
     },
     {
@@ -1340,12 +1342,12 @@
       "website": {
         "ok": false,
         "status": 405,
-        "ms": 62
+        "ms": 122
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 91
+        "ms": 237
       }
     },
     {
@@ -1354,12 +1356,12 @@
       "website": {
         "ok": false,
         "status": 405,
-        "ms": 96
+        "ms": 260
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 461
+        "ms": 192
       }
     },
     {
@@ -1368,12 +1370,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 56
+        "ms": 61
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 546
+        "ms": 391
       }
     },
     {
@@ -1382,12 +1384,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 83
+        "ms": 53
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 122
+        "ms": 231
       }
     },
     {
@@ -1396,12 +1398,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 543
+        "ms": 1026
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 466
+        "ms": 634
       }
     },
     {
@@ -1410,12 +1412,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 191
+        "ms": 325
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 98
+        "ms": 195
       }
     },
     {
@@ -1424,12 +1426,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 59
+        "ms": 105
       },
       "docs": {
         "ok": false,
         "status": 403,
-        "ms": 12
+        "ms": 38
       }
     },
     {
@@ -1438,12 +1440,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 19
+        "ms": 224
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 95
+        "ms": 438
       }
     },
     {
@@ -1452,12 +1454,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 106
+        "ms": 113
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 20
+        "ms": 83
       }
     },
     {
@@ -1466,12 +1468,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 100
+        "ms": 362
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 170
+        "ms": 327
       }
     },
     {
@@ -1480,12 +1482,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 136
+        "ms": 324
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 141
+        "ms": 770
       }
     },
     {
@@ -1494,13 +1496,13 @@
       "website": {
         "ok": false,
         "status": 0,
-        "ms": 647,
+        "ms": 577,
         "error": "fetch failed"
       },
       "docs": {
         "ok": false,
         "status": 0,
-        "ms": 568,
+        "ms": 235,
         "error": "fetch failed"
       }
     },
@@ -1510,12 +1512,12 @@
       "website": {
         "ok": false,
         "status": 405,
-        "ms": 74
+        "ms": 153
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 117
+        "ms": 144
       }
     },
     {
@@ -1524,12 +1526,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 108
+        "ms": 286
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 106
+        "ms": 406
       }
     },
     {
@@ -1538,12 +1540,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 497
+        "ms": 855
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 1064
+        "ms": 1162
       }
     },
     {
@@ -1552,12 +1554,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 46
+        "ms": 152
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 43
+        "ms": 114
       }
     },
     {
@@ -1566,12 +1568,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 123
+        "ms": 199
       },
       "docs": {
         "ok": false,
         "status": 404,
-        "ms": 52
+        "ms": 126
       }
     },
     {
@@ -1580,12 +1582,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 368
+        "ms": 423
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 405
+        "ms": 230
       }
     },
     {
@@ -1594,12 +1596,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 51
+        "ms": 134
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 51
+        "ms": 112
       }
     },
     {
@@ -1608,12 +1610,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 145
+        "ms": 70
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 189
+        "ms": 241
       }
     },
     {
@@ -1622,12 +1624,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 311
+        "ms": 487
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 541
+        "ms": 372
       }
     }
   ]
