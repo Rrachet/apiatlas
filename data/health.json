@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-09-11T10:22:11.012Z",
+  "checked_at": "2026-09-12T09:54:18.919Z",
   "total": 116,
-  "healthy": 93,
-  "failed": 23,
+  "healthy": 91,
+  "failed": 25,
   "apis": [
     {
       "id": "anthropic",
@@ -10,12 +10,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 130
+        "ms": 168
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 447
+        "ms": 662
       }
     },
     {
@@ -24,12 +24,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 224
+        "ms": 328
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 82
+        "ms": 139
       }
     },
     {
@@ -38,12 +38,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 431
+        "ms": 361
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 300
+        "ms": 328
       }
     },
     {
@@ -52,12 +52,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 17
+        "ms": 64
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 249
+        "ms": 347
       }
     },
     {
@@ -66,12 +66,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 32
+        "ms": 43
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 128
+        "ms": 357
       }
     },
     {
@@ -80,12 +80,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 684
+        "ms": 428
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 226
+        "ms": 288
       }
     },
     {
@@ -94,12 +94,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 120
+        "ms": 143
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 116
+        "ms": 108
       }
     },
     {
@@ -108,12 +108,12 @@
       "website": {
         "ok": false,
         "status": 404,
-        "ms": 616
+        "ms": 637
       },
       "docs": {
         "ok": false,
         "status": 404,
-        "ms": 525
+        "ms": 571
       }
     },
     {
@@ -122,12 +122,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 614
+        "ms": 476
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 155
+        "ms": 186
       }
     },
     {
@@ -136,12 +136,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 368
+        "ms": 88
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 31
+        "ms": 51
       }
     },
     {
@@ -150,12 +150,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 122
+        "ms": 128
       },
       "docs": {
         "ok": false,
         "status": 404,
-        "ms": 88
+        "ms": 134
       }
     },
     {
@@ -164,12 +164,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 347
+        "ms": 600
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 405
+        "ms": 491
       }
     },
     {
@@ -178,26 +178,26 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 84
+        "ms": 91
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 780
+        "ms": 288
       }
     },
     {
       "id": "open-library",
       "name": "Open Library API",
       "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 473
+        "ok": false,
+        "status": 503,
+        "ms": 9283
       },
       "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 267
+        "ok": false,
+        "status": 503,
+        "ms": 9578
       }
     },
     {
@@ -206,12 +206,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 95
+        "ms": 98
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 390
+        "ms": 391
       }
     },
     {
@@ -220,12 +220,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 205
+        "ms": 229
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 184
+        "ms": 134
       }
     },
     {
@@ -234,12 +234,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 136
+        "ms": 144
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 92
+        "ms": 90
       }
     },
     {
@@ -248,12 +248,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 99
+        "ms": 128
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 37
+        "ms": 265
       }
     },
     {
@@ -262,12 +262,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 135
+        "ms": 130
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 145
+        "ms": 186
       }
     },
     {
@@ -276,12 +276,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 197
+        "ms": 143
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 299
+        "ms": 361
       }
     },
     {
@@ -290,12 +290,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 202
+        "ms": 291
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 136
+        "ms": 440
       }
     },
     {
@@ -304,7 +304,7 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 53
+        "ms": 169
       },
       "docs": {
         "ok": true,
@@ -318,12 +318,12 @@
       "website": {
         "ok": true,
         "status": 202,
-        "ms": 53
+        "ms": 225
       },
       "docs": {
         "ok": true,
         "status": 202,
-        "ms": 379
+        "ms": 318
       }
     },
     {
@@ -332,12 +332,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 94
+        "ms": 87
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 404
+        "ms": 526
       }
     },
     {
@@ -346,12 +346,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 130
+        "ms": 136
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 708
+        "ms": 703
       }
     },
     {
@@ -360,12 +360,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 50
+        "ms": 217
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 33
+        "ms": 44
       }
     },
     {
@@ -374,12 +374,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 673
+        "ms": 738
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 727
+        "ms": 893
       }
     },
     {
@@ -388,12 +388,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 50
+        "ms": 244
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 367
+        "ms": 636
       }
     },
     {
@@ -402,12 +402,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 117
+        "ms": 171
       },
       "docs": {
         "ok": false,
         "status": 404,
-        "ms": 244
+        "ms": 284
       }
     },
     {
@@ -416,12 +416,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 63
+        "ms": 20
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 75
+        "ms": 101
       }
     },
     {
@@ -430,12 +430,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 212
+        "ms": 218
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 232
+        "ms": 248
       }
     },
     {
@@ -444,12 +444,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 32
+        "ms": 90
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 955
+        "ms": 703
       }
     },
     {
@@ -458,12 +458,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 251
+        "ms": 269
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 288
+        "ms": 244
       }
     },
     {
@@ -472,12 +472,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 105
+        "ms": 186
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 399
+        "ms": 403
       }
     },
     {
@@ -486,12 +486,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 73
+        "ms": 263
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 279
+        "ms": 467
       }
     },
     {
@@ -500,12 +500,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 429
+        "ms": 535
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 41
+        "ms": 113
       }
     },
     {
@@ -514,12 +514,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 88
+        "ms": 136
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 64
+        "ms": 73
       }
     },
     {
@@ -528,12 +528,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 354
+        "ms": 314
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 126
+        "ms": 315
       }
     },
     {
@@ -542,12 +542,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 95
+        "ms": 143
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 249
+        "ms": 281
       }
     },
     {
@@ -556,12 +556,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 59
+        "ms": 70
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 333
+        "ms": 500
       }
     },
     {
@@ -570,12 +570,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 363
+        "ms": 450
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 504
+        "ms": 848
       }
     },
     {
@@ -584,13 +584,13 @@
       "website": {
         "ok": false,
         "status": 0,
-        "ms": 1832,
+        "ms": 2174,
         "error": "fetch failed"
       },
       "docs": {
         "ok": false,
         "status": 0,
-        "ms": 1914,
+        "ms": 2176,
         "error": "fetch failed"
       }
     },
@@ -600,12 +600,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 243
+        "ms": 251
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 52
+        "ms": 104
       }
     },
     {
@@ -614,12 +614,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 450
+        "ms": 644
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 429
+        "ms": 449
       }
     },
     {
@@ -628,12 +628,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 384
+        "ms": 339
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 176
+        "ms": 322
       }
     },
     {
@@ -642,12 +642,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 143
+        "ms": 151
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 738
+        "ms": 6877
       }
     },
     {
@@ -656,12 +656,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 26
+        "ms": 69
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 15
+        "ms": 38
       }
     },
     {
@@ -670,12 +670,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 1364
+        "ms": 1073
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 182
+        "ms": 184
       }
     },
     {
@@ -684,12 +684,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 858
+        "ms": 868
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 1649
+        "ms": 1648
       }
     },
     {
@@ -698,12 +698,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 434
+        "ms": 472
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 443
+        "ms": 473
       }
     },
     {
@@ -712,12 +712,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 121
+        "ms": 70
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 133
+        "ms": 141
       }
     },
     {
@@ -726,12 +726,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 153
+        "ms": 170
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 91
+        "ms": 64
       }
     },
     {
@@ -740,12 +740,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 206
+        "ms": 215
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 180
+        "ms": 157
       }
     },
     {
@@ -754,12 +754,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 181
+        "ms": 233
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 94
+        "ms": 124
       }
     },
     {
@@ -768,12 +768,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 356
+        "ms": 718
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 887
+        "ms": 1538
       }
     },
     {
@@ -782,12 +782,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 241
+        "ms": 153
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 181
+        "ms": 292
       }
     },
     {
@@ -796,12 +796,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 213
+        "ms": 506
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 206
+        "ms": 230
       }
     },
     {
@@ -810,12 +810,12 @@
       "website": {
         "ok": false,
         "status": 401,
-        "ms": 437
+        "ms": 335
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 290
+        "ms": 198
       }
     },
     {
@@ -824,12 +824,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 82
+        "ms": 123
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 19
+        "ms": 281
       }
     },
     {
@@ -838,12 +838,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 137
+        "ms": 176
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 288
+        "ms": 261
       }
     },
     {
@@ -852,12 +852,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 280
+        "ms": 363
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 863
+        "ms": 949
       }
     },
     {
@@ -866,12 +866,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 93
+        "ms": 108
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 42
+        "ms": 19
       }
     },
     {
@@ -880,7 +880,7 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 101
+        "ms": 248
       },
       "docs": {
         "ok": true,
@@ -894,12 +894,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 258
+        "ms": 367
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 272
+        "ms": 141
       }
     },
     {
@@ -908,12 +908,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 61
+        "ms": 64
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 455
+        "ms": 511
       }
     },
     {
@@ -922,12 +922,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 136
+        "ms": 263
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 69
+        "ms": 120
       }
     },
     {
@@ -936,12 +936,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 17
+        "ms": 41
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 518
+        "ms": 477
       }
     },
     {
@@ -950,12 +950,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 656
+        "ms": 747
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 487
+        "ms": 642
       }
     },
     {
@@ -964,12 +964,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 561
+        "ms": 493
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 599
+        "ms": 575
       }
     },
     {
@@ -978,12 +978,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 702
+        "ms": 616
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 600
+        "ms": 562
       }
     },
     {
@@ -992,12 +992,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 62
+        "ms": 210
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 27
+        "ms": 90
       }
     },
     {
@@ -1006,12 +1006,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 407
+        "ms": 437
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 411
+        "ms": 437
       }
     },
     {
@@ -1020,12 +1020,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 159
+        "ms": 179
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 155
+        "ms": 181
       }
     },
     {
@@ -1034,12 +1034,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 541
+        "ms": 908
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 479
+        "ms": 541
       }
     },
     {
@@ -1048,12 +1048,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 169
+        "ms": 221
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 100
+        "ms": 105
       }
     },
     {
@@ -1062,12 +1062,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 498
+        "ms": 433
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 448
+        "ms": 633
       }
     },
     {
@@ -1076,12 +1076,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 152
+        "ms": 150
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 167
+        "ms": 192
       }
     },
     {
@@ -1090,12 +1090,12 @@
       "website": {
         "ok": false,
         "status": 405,
-        "ms": 57
+        "ms": 155
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 525
+        "ms": 379
       }
     },
     {
@@ -1104,12 +1104,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 211
+        "ms": 275
       },
       "docs": {
         "ok": false,
         "status": 403,
-        "ms": 191
+        "ms": 158
       }
     },
     {
@@ -1118,12 +1118,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 256
+        "ms": 448
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 107
+        "ms": 127
       }
     },
     {
@@ -1132,26 +1132,27 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 60
+        "ms": 214
       },
       "docs": {
         "ok": false,
         "status": 403,
-        "ms": 193
+        "ms": 231
       }
     },
     {
       "id": "transport-api",
       "name": "TransportAPI",
       "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 368
+        "ok": false,
+        "status": 0,
+        "ms": 10046,
+        "error": "fetch failed"
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 196
+        "ms": 427
       }
     },
     {
@@ -1160,12 +1161,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 326
+        "ms": 301
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 227
+        "ms": 327
       }
     },
     {
@@ -1174,12 +1175,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 147
+        "ms": 145
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 405
+        "ms": 372
       }
     },
     {
@@ -1188,12 +1189,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 330
+        "ms": 206
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 2461
+        "ms": 379
       }
     },
     {
@@ -1202,12 +1203,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 490
+        "ms": 517
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 448
+        "ms": 430
       }
     },
     {
@@ -1216,12 +1217,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 48
+        "ms": 67
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 555
+        "ms": 581
       }
     },
     {
@@ -1230,12 +1231,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 302
+        "ms": 306
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 163
+        "ms": 301
       }
     },
     {
@@ -1244,12 +1245,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 225
+        "ms": 488
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 224
+        "ms": 255
       }
     },
     {
@@ -1258,12 +1259,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 20
+        "ms": 42
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 160
+        "ms": 321
       }
     },
     {
@@ -1272,12 +1273,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 115
+        "ms": 282
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 73
+        "ms": 227
       }
     },
     {
@@ -1286,12 +1287,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 214
+        "ms": 73
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 67
+        "ms": 96
       }
     },
     {
@@ -1300,12 +1301,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 93
+        "ms": 121
       },
       "docs": {
         "ok": false,
         "status": 403,
-        "ms": 18
+        "ms": 89
       }
     },
     {
@@ -1314,12 +1315,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 27
+        "ms": 150
       },
       "docs": {
         "ok": false,
         "status": 403,
-        "ms": 8
+        "ms": 32
       }
     },
     {
@@ -1328,12 +1329,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 31
+        "ms": 76
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 155
+        "ms": 141
       }
     },
     {
@@ -1342,12 +1343,12 @@
       "website": {
         "ok": false,
         "status": 405,
-        "ms": 130
+        "ms": 173
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 234
+        "ms": 205
       }
     },
     {
@@ -1356,12 +1357,12 @@
       "website": {
         "ok": false,
         "status": 405,
-        "ms": 294
+        "ms": 309
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 111
+        "ms": 475
       }
     },
     {
@@ -1370,12 +1371,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 59
+        "ms": 39
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 280
+        "ms": 420
       }
     },
     {
@@ -1384,12 +1385,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 23
+        "ms": 59
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 208
+        "ms": 219
       }
     },
     {
@@ -1398,12 +1399,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 721
+        "ms": 845
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 659
+        "ms": 497
       }
     },
     {
@@ -1412,12 +1413,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 255
+        "ms": 440
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 156
+        "ms": 172
       }
     },
     {
@@ -1426,12 +1427,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 83
+        "ms": 67
       },
       "docs": {
         "ok": false,
         "status": 403,
-        "ms": 10
+        "ms": 32
       }
     },
     {
@@ -1440,35 +1441,7 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 400
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 274
-      }
-    },
-    {
-      "id": "jsonplaceholder",
-      "name": "JSONPlaceholder",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 26
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 23
-      }
-    },
-    {
-      "id": "reqres",
-      "name": "ReqRes",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 170
+        "ms": 292
       },
       "docs": {
         "ok": true,
@@ -1477,17 +1450,45 @@
       }
     },
     {
+      "id": "jsonplaceholder",
+      "name": "JSONPlaceholder",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 73
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 27
+      }
+    },
+    {
+      "id": "reqres",
+      "name": "ReqRes",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 291
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 161
+      }
+    },
+    {
       "id": "aviationstack",
       "name": "Aviationstack API",
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 450
+        "ms": 455
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 659
+        "ms": 933
       }
     },
     {
@@ -1496,13 +1497,13 @@
       "website": {
         "ok": false,
         "status": 0,
-        "ms": 1003,
+        "ms": 866,
         "error": "fetch failed"
       },
       "docs": {
         "ok": false,
         "status": 0,
-        "ms": 1033,
+        "ms": 870,
         "error": "fetch failed"
       }
     },
@@ -1517,7 +1518,7 @@
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 130
+        "ms": 218
       }
     },
     {
@@ -1526,12 +1527,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 38
+        "ms": 238
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 35
+        "ms": 82
       }
     },
     {
@@ -1540,12 +1541,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 798
+        "ms": 856
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 1138
+        "ms": 1276
       }
     },
     {
@@ -1554,12 +1555,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 105
+        "ms": 158
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 95
+        "ms": 93
       }
     },
     {
@@ -1568,12 +1569,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 175
+        "ms": 162
       },
       "docs": {
         "ok": false,
         "status": 404,
-        "ms": 112
+        "ms": 113
       }
     },
     {
@@ -1582,12 +1583,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 661
+        "ms": 474
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 220
+        "ms": 421
       }
     },
     {
@@ -1596,12 +1597,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 94
+        "ms": 104
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 67
+        "ms": 77
       }
     },
     {
@@ -1610,12 +1611,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 70
+        "ms": 80
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 313
+        "ms": 32
       }
     },
     {
@@ -1624,12 +1625,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 365
+        "ms": 458
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 396
+        "ms": 660
       }
     }
   ]
