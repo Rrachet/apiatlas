@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-19T11:45:13.593Z",
+  "checked_at": "2026-10-20T10:45:28.847Z",
   "total": 116,
   "healthy": 94,
   "failed": 22,
@@ -10,12 +10,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 161
+        "ms": 169
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 470
+        "ms": 283
       }
     },
     {
@@ -24,12 +24,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 101
+        "ms": 111
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 610
+        "ms": 275
       }
     },
     {
@@ -38,12 +38,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 254
+        "ms": 231
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 436
+        "ms": 426
       }
     },
     {
@@ -52,12 +52,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 70
+        "ms": 51
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 353
+        "ms": 120
       }
     },
     {
@@ -66,12 +66,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 36
+        "ms": 30
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 356
+        "ms": 302
       }
     },
     {
@@ -80,12 +80,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 297
+        "ms": 259
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 421
+        "ms": 57
       }
     },
     {
@@ -94,12 +94,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 124
+        "ms": 115
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 127
+        "ms": 53
       }
     },
     {
@@ -108,12 +108,12 @@
       "website": {
         "ok": false,
         "status": 404,
-        "ms": 534
+        "ms": 356
       },
       "docs": {
         "ok": false,
         "status": 404,
-        "ms": 518
+        "ms": 343
       }
     },
     {
@@ -122,105 +122,7 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 320
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 324
-      }
-    },
-    {
-      "id": "http-dogs",
-      "name": "HTTP Dogs",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 88
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 48
-      }
-    },
-    {
-      "id": "anilist",
-      "name": "AniList API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 154
-      },
-      "docs": {
-        "ok": false,
-        "status": 404,
-        "ms": 121
-      }
-    },
-    {
-      "id": "jikan",
-      "name": "Jikan",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 562
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 528
-      }
-    },
-    {
-      "id": "google-books",
-      "name": "Google Books API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 60
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 1150
-      }
-    },
-    {
-      "id": "open-library",
-      "name": "Open Library API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 377
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 351
-      }
-    },
-    {
-      "id": "clearbit-logo",
-      "name": "Clearbit Logo API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 121
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 441
-      }
-    },
-    {
-      "id": "domainsdb",
-      "name": "DomainsDB",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 180
+        "ms": 214
       },
       "docs": {
         "ok": true,
@@ -229,17 +131,115 @@
       }
     },
     {
+      "id": "http-dogs",
+      "name": "HTTP Dogs",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 167
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 39
+      }
+    },
+    {
+      "id": "anilist",
+      "name": "AniList API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 71
+      },
+      "docs": {
+        "ok": false,
+        "status": 404,
+        "ms": 57
+      }
+    },
+    {
+      "id": "jikan",
+      "name": "Jikan",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 476
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 605
+      }
+    },
+    {
+      "id": "google-books",
+      "name": "Google Books API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 36
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 312
+      }
+    },
+    {
+      "id": "open-library",
+      "name": "Open Library API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 353
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 434
+      }
+    },
+    {
+      "id": "clearbit-logo",
+      "name": "Clearbit Logo API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 173
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 616
+      }
+    },
+    {
+      "id": "domainsdb",
+      "name": "DomainsDB",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 63
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 50
+      }
+    },
+    {
       "id": "holidayapi",
       "name": "Holiday API",
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 153
+        "ms": 80
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 111
+        "ms": 57
       }
     },
     {
@@ -248,12 +248,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 117
+        "ms": 200
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 123
+        "ms": 162
       }
     },
     {
@@ -262,12 +262,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 135
+        "ms": 58
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 139
+        "ms": 172
       }
     },
     {
@@ -276,12 +276,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 171
+        "ms": 187
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 241
+        "ms": 212
       }
     },
     {
@@ -290,12 +290,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 388
+        "ms": 619
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 350
+        "ms": 129
       }
     },
     {
@@ -304,12 +304,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 128
+        "ms": 19
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 220
+        "ms": 328
       }
     },
     {
@@ -318,12 +318,12 @@
       "website": {
         "ok": true,
         "status": 202,
-        "ms": 178
+        "ms": 179
       },
       "docs": {
         "ok": true,
         "status": 202,
-        "ms": 499
+        "ms": 601
       }
     },
     {
@@ -332,12 +332,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 256
+        "ms": 292
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 267
+        "ms": 315
       }
     },
     {
@@ -346,12 +346,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 120
+        "ms": 110
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 133
+        "ms": 66
       }
     },
     {
@@ -360,7 +360,7 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 208
+        "ms": 156
       },
       "docs": {
         "ok": true,
@@ -374,12 +374,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 444
+        "ms": 95
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 440
+        "ms": 210
       }
     },
     {
@@ -388,12 +388,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 99
+        "ms": 354
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 662
+        "ms": 256
       }
     },
     {
@@ -402,12 +402,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 153
+        "ms": 37
       },
       "docs": {
         "ok": false,
         "status": 404,
-        "ms": 348
+        "ms": 2313
       }
     },
     {
@@ -416,12 +416,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 17
+        "ms": 16
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 125
+        "ms": 18
       }
     },
     {
@@ -430,12 +430,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 243
+        "ms": 178
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 326
+        "ms": 167
       }
     },
     {
@@ -444,12 +444,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 40
+        "ms": 58
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 856
+        "ms": 721
       }
     },
     {
@@ -458,12 +458,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 271
+        "ms": 106
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 258
+        "ms": 25
       }
     },
     {
@@ -472,12 +472,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 122
+        "ms": 126
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 426
+        "ms": 143
       }
     },
     {
@@ -486,12 +486,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 256
+        "ms": 128
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 574
+        "ms": 308
       }
     },
     {
@@ -500,12 +500,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 528
+        "ms": 363
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 73
+        "ms": 110
       }
     },
     {
@@ -514,12 +514,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 135
+        "ms": 456
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 84
+        "ms": 50
       }
     },
     {
@@ -528,12 +528,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 380
+        "ms": 222
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 126
+        "ms": 173
       }
     },
     {
@@ -542,12 +542,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 135
+        "ms": 37
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 230
+        "ms": 94
       }
     },
     {
@@ -556,12 +556,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 75
+        "ms": 47
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 193
+        "ms": 244
       }
     },
     {
@@ -570,12 +570,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 400
+        "ms": 199
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 837
+        "ms": 213
       }
     },
     {
@@ -583,15 +583,13 @@
       "name": "Finnhub API",
       "website": {
         "ok": false,
-        "status": 0,
-        "ms": 2100,
-        "error": "fetch failed"
+        "status": 429,
+        "ms": 385
       },
       "docs": {
         "ok": false,
-        "status": 0,
-        "ms": 1917,
-        "error": "fetch failed"
+        "status": 429,
+        "ms": 27
       }
     },
     {
@@ -600,12 +598,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 255
+        "ms": 175
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 125
+        "ms": 70
       }
     },
     {
@@ -614,12 +612,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 458
+        "ms": 166
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 467
+        "ms": 100
       }
     },
     {
@@ -628,12 +626,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 370
+        "ms": 202
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 299
+        "ms": 112
       }
     },
     {
@@ -642,12 +640,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 124
+        "ms": 82
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 837
+        "ms": 515
       }
     },
     {
@@ -656,12 +654,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 76
+        "ms": 31
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 38
+        "ms": 96
       }
     },
     {
@@ -670,12 +668,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 3550
+        "ms": 861
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 196
+        "ms": 123
       }
     },
     {
@@ -684,12 +682,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 1037
+        "ms": 844
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 1222
+        "ms": 785
       }
     },
     {
@@ -698,12 +696,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 466
+        "ms": 298
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 444
+        "ms": 296
       }
     },
     {
@@ -712,12 +710,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 68
+        "ms": 282
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 129
+        "ms": 453
       }
     },
     {
@@ -726,12 +724,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 213
+        "ms": 437
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 67
+        "ms": 323
       }
     },
     {
@@ -740,12 +738,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 218
+        "ms": 460
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 152
+        "ms": 366
       }
     },
     {
@@ -754,12 +752,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 219
+        "ms": 69
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 115
+        "ms": 65
       }
     },
     {
@@ -768,12 +766,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 919
+        "ms": 286
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 1597
+        "ms": 291
       }
     },
     {
@@ -782,12 +780,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 160
+        "ms": 229
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 354
+        "ms": 244
       }
     },
     {
@@ -796,12 +794,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 650
+        "ms": 147
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 209
+        "ms": 134
       }
     },
     {
@@ -810,12 +808,12 @@
       "website": {
         "ok": false,
         "status": 401,
-        "ms": 520
+        "ms": 109
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 455
+        "ms": 140
       }
     },
     {
@@ -824,12 +822,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 132
+        "ms": 19
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 118
+        "ms": 56
       }
     },
     {
@@ -838,12 +836,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 159
+        "ms": 235
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 300
+        "ms": 150
       }
     },
     {
@@ -852,12 +850,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 198
+        "ms": 236
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 586
+        "ms": 480
       }
     },
     {
@@ -866,12 +864,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 39
+        "ms": 25
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 21
+        "ms": 19
       }
     },
     {
@@ -880,12 +878,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 346
+        "ms": 164
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 76
+        "ms": 47
       }
     },
     {
@@ -894,12 +892,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 358
+        "ms": 38
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 274
+        "ms": 50
       }
     },
     {
@@ -908,12 +906,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 53
+        "ms": 29
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 286
+        "ms": 364
       }
     },
     {
@@ -922,12 +920,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 362
+        "ms": 238
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 411
+        "ms": 188
       }
     },
     {
@@ -936,12 +934,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 42
+        "ms": 17
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 524
+        "ms": 314
       }
     },
     {
@@ -950,12 +948,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 929
+        "ms": 620
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 487
+        "ms": 505
       }
     },
     {
@@ -964,12 +962,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 473
+        "ms": 315
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 607
+        "ms": 434
       }
     },
     {
@@ -978,12 +976,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 660
+        "ms": 400
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 588
+        "ms": 343
       }
     },
     {
@@ -992,12 +990,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 106
+        "ms": 61
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 41
+        "ms": 18
       }
     },
     {
@@ -1006,12 +1004,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 444
+        "ms": 290
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 450
+        "ms": 324
       }
     },
     {
@@ -1020,12 +1018,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 151
+        "ms": 158
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 155
+        "ms": 112
       }
     },
     {
@@ -1034,12 +1032,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 1191
+        "ms": 662
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 544
+        "ms": 399
       }
     },
     {
@@ -1048,12 +1046,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 258
+        "ms": 52
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 85
+        "ms": 42
       }
     },
     {
@@ -1062,12 +1060,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 262
+        "ms": 63
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 602
+        "ms": 177
       }
     },
     {
@@ -1076,12 +1074,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 221
+        "ms": 128
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 212
+        "ms": 81
       }
     },
     {
@@ -1090,7 +1088,7 @@
       "website": {
         "ok": false,
         "status": 405,
-        "ms": 172
+        "ms": 266
       },
       "docs": {
         "ok": true,
@@ -1104,12 +1102,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 203
+        "ms": 282
       },
       "docs": {
         "ok": false,
         "status": 403,
-        "ms": 189
+        "ms": 264
       }
     },
     {
@@ -1118,12 +1116,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 362
+        "ms": 60
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 281
+        "ms": 55
       }
     },
     {
@@ -1132,12 +1130,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 243
+        "ms": 55
       },
       "docs": {
         "ok": false,
         "status": 403,
-        "ms": 228
+        "ms": 235
       }
     },
     {
@@ -1146,12 +1144,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 402
+        "ms": 361
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 276
+        "ms": 111
       }
     },
     {
@@ -1160,21 +1158,7 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 340
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 269
-      }
-    },
-    {
-      "id": "stripe",
-      "name": "Stripe API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 150
+        "ms": 411
       },
       "docs": {
         "ok": true,
@@ -1183,17 +1167,31 @@
       }
     },
     {
+      "id": "stripe",
+      "name": "Stripe API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 182
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 477
+      }
+    },
+    {
       "id": "notion",
       "name": "Notion API",
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 94
+        "ms": 68
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 317
+        "ms": 330
       }
     },
     {
@@ -1202,12 +1200,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 412
+        "ms": 124
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 338
+        "ms": 46
       }
     },
     {
@@ -1216,133 +1214,7 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 92
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 329
-      }
-    },
-    {
-      "id": "themealdb",
-      "name": "TheMealDB",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 194
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 184
-      }
-    },
-    {
-      "id": "crossref",
-      "name": "Crossref",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 453
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 627
-      }
-    },
-    {
-      "id": "openalex",
-      "name": "OpenAlex",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 138
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 194
-      }
-    },
-    {
-      "id": "orcid",
-      "name": "ORCID API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 94
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 62
-      }
-    },
-    {
-      "id": "semantic-scholar",
-      "name": "Semantic Scholar API",
-      "website": {
-        "ok": true,
-        "status": 200,
-        "ms": 79
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 265
-      }
-    },
-    {
-      "id": "nasa-earthdata",
-      "name": "NASA Earthdata APIs",
-      "website": {
-        "ok": false,
-        "status": 403,
-        "ms": 171
-      },
-      "docs": {
-        "ok": false,
-        "status": 403,
-        "ms": 32
-      }
-    },
-    {
-      "id": "usgs",
-      "name": "USGS APIs",
-      "website": {
-        "ok": false,
-        "status": 403,
-        "ms": 114
-      },
-      "docs": {
-        "ok": false,
-        "status": 403,
-        "ms": 35
-      }
-    },
-    {
-      "id": "abuseipdb",
-      "name": "AbuseIPDB API",
-      "website": {
-        "ok": false,
-        "status": 403,
-        "ms": 89
-      },
-      "docs": {
-        "ok": true,
-        "status": 200,
-        "ms": 187
-      }
-    },
-    {
-      "id": "virustotal",
-      "name": "VirusTotal API",
-      "website": {
-        "ok": false,
-        "status": 405,
-        "ms": 94
+        "ms": 81
       },
       "docs": {
         "ok": true,
@@ -1351,17 +1223,143 @@
       }
     },
     {
+      "id": "themealdb",
+      "name": "TheMealDB",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 205
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 230
+      }
+    },
+    {
+      "id": "crossref",
+      "name": "Crossref",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 151
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 85
+      }
+    },
+    {
+      "id": "openalex",
+      "name": "OpenAlex",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 215
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 320
+      }
+    },
+    {
+      "id": "orcid",
+      "name": "ORCID API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 49
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 73
+      }
+    },
+    {
+      "id": "semantic-scholar",
+      "name": "Semantic Scholar API",
+      "website": {
+        "ok": true,
+        "status": 200,
+        "ms": 159
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 173
+      }
+    },
+    {
+      "id": "nasa-earthdata",
+      "name": "NASA Earthdata APIs",
+      "website": {
+        "ok": false,
+        "status": 403,
+        "ms": 79
+      },
+      "docs": {
+        "ok": false,
+        "status": 403,
+        "ms": 130
+      }
+    },
+    {
+      "id": "usgs",
+      "name": "USGS APIs",
+      "website": {
+        "ok": false,
+        "status": 403,
+        "ms": 173
+      },
+      "docs": {
+        "ok": false,
+        "status": 403,
+        "ms": 13
+      }
+    },
+    {
+      "id": "abuseipdb",
+      "name": "AbuseIPDB API",
+      "website": {
+        "ok": false,
+        "status": 403,
+        "ms": 57
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 101
+      }
+    },
+    {
+      "id": "virustotal",
+      "name": "VirusTotal API",
+      "website": {
+        "ok": false,
+        "status": 405,
+        "ms": 59
+      },
+      "docs": {
+        "ok": true,
+        "status": 200,
+        "ms": 137
+      }
+    },
+    {
       "id": "bluesky",
       "name": "Bluesky API",
       "website": {
         "ok": false,
         "status": 405,
-        "ms": 355
+        "ms": 73
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 253
+        "ms": 426
       }
     },
     {
@@ -1370,12 +1368,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 64
+        "ms": 50
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 491
+        "ms": 416
       }
     },
     {
@@ -1384,12 +1382,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 37
+        "ms": 94
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 226
+        "ms": 141
       }
     },
     {
@@ -1398,12 +1396,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 1017
+        "ms": 429
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 539
+        "ms": 475
       }
     },
     {
@@ -1412,12 +1410,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 287
+        "ms": 210
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 201
+        "ms": 120
       }
     },
     {
@@ -1426,12 +1424,12 @@
       "website": {
         "ok": false,
         "status": 403,
-        "ms": 83
+        "ms": 59
       },
       "docs": {
         "ok": false,
         "status": 403,
-        "ms": 22
+        "ms": 14
       }
     },
     {
@@ -1440,12 +1438,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 931
+        "ms": 22
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 264
+        "ms": 86
       }
     },
     {
@@ -1454,12 +1452,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 72
+        "ms": 67
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 61
+        "ms": 47
       }
     },
     {
@@ -1468,12 +1466,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 305
+        "ms": 254
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 285
+        "ms": 218
       }
     },
     {
@@ -1482,12 +1480,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 423
+        "ms": 188
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 630
+        "ms": 179
       }
     },
     {
@@ -1496,13 +1494,13 @@
       "website": {
         "ok": false,
         "status": 0,
-        "ms": 1106,
+        "ms": 495,
         "error": "fetch failed"
       },
       "docs": {
         "ok": false,
         "status": 0,
-        "ms": 962,
+        "ms": 380,
         "error": "fetch failed"
       }
     },
@@ -1512,12 +1510,12 @@
       "website": {
         "ok": false,
         "status": 405,
-        "ms": 166
+        "ms": 108
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 157
+        "ms": 47
       }
     },
     {
@@ -1526,12 +1524,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 81
+        "ms": 222
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 123
+        "ms": 108
       }
     },
     {
@@ -1540,12 +1538,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 803
+        "ms": 616
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 1119
+        "ms": 685
       }
     },
     {
@@ -1554,12 +1552,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 139
+        "ms": 215
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 95
+        "ms": 32
       }
     },
     {
@@ -1568,12 +1566,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 176
+        "ms": 100
       },
       "docs": {
         "ok": false,
         "status": 404,
-        "ms": 107
+        "ms": 66
       }
     },
     {
@@ -1582,12 +1580,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 391
+        "ms": 276
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 625
+        "ms": 555
       }
     },
     {
@@ -1596,12 +1594,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 113
+        "ms": 123
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 140
+        "ms": 85
       }
     },
     {
@@ -1610,12 +1608,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 111
+        "ms": 241
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 254
+        "ms": 279
       }
     },
     {
@@ -1624,12 +1622,12 @@
       "website": {
         "ok": true,
         "status": 200,
-        "ms": 374
+        "ms": 297
       },
       "docs": {
         "ok": true,
         "status": 200,
-        "ms": 606
+        "ms": 391
       }
     }
   ]
